@@ -1,0 +1,79 @@
+.navbar-nav {
+    display: none;
+}
+
+body {
+
+    /* Reset default margin and padding */
+    margin: 0;
+    padding: 0;
+
+    /* Set full height */
+    min-height: 100vh;
+
+}
+
+#wrapper {
+    min-height: 100vh;
+}
+
+
+.fixed-right-corner {
+    position: fixed;
+    bottom: 80px; /* Adjust spacing here */
+    right: 30px; /* Adjust spacing here */
+    z-index: 9999; /* Ensures the button stays on top of other elements */
+}
+.accordion {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+  }
+  
+  .panel {
+    flex: 1;
+    background-image: var(--img);
+    background-size: cover;
+    background-position: center;
+    transition: flex 0.6s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  }
+  
+  .panel h3 {
+    font-size: 2rem;
+    margin: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .panel:hover {
+    flex: 5;
+  }
+  
+  .panel:hover h3 {
+    opacity: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .accordion {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .panel {
+      height: 30vh;
+    }
+  
+    .panel:hover {
+      flex: unset;
+      height: 50vh;
+    }
+  }
+  

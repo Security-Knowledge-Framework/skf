@@ -1,0 +1,19 @@
+{
+    "id": "LFS183",
+    "title": "Introduction to Zero Trust (LFS183)",
+    "overview": "Learn the fundamentals of Zero Trust and how open source tools such as SPIFFE and SPIRE can be used to deploy Zero Trust in your architecture.",
+    "requirements": [
+      "Basic understanding of networking concepts",
+      "Familiarity with security principles",
+      "Experience with microservices architecture"
+    ],
+    "audience": "This course is designed for developers, operators, security professionals, and architects working on medium to large microservice-based systems, as well as IT leaders and policy decision-makers looking to enhance security within their organization.",
+    "details": {
+      "certificate": "Digital Badge",
+      "duration": "Self-paced",
+      "level": "Beginner",
+      "pricing": "Free",
+      "enroll_url": "https://training.linuxfoundation.org/training/introduction-to-zero-trust-lfs183/"
+    }
+  }
+  

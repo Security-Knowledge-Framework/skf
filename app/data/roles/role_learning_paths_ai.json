@@ -1,0 +1,464 @@
+{
+  "junior": {
+    "job_path_title": "Foundations in AI and Machine Learning",
+    "job_path_description": "Begin your GenAI career with fundamental knowledge in data science, machine learning, and AI ethics.",
+    "title": "AI Support Specialist",
+    "salary": "$75,000",
+    "range": [
+      "$60,000",
+      "$75,000",
+      "$90,000"
+    ],
+    "courses": [
+      {
+        "id": "b11b738a-197a-5b28-ba2b-e0ec724ca055"
+      },
+      {
+        "id": "a98c205c-43d7-51f6-9b8d-23954bbdb154"
+      },
+      {
+        "id": "cf79d5cd-76da-56d5-8899-de8b2e4f6673"
+      },
+      {
+        "id": "9eafebba-cbac-587b-b659-5909d6ca1c92"
+      },
+      {
+        "id": "23f5afba-c88c-51b0-a75a-e4cde5132a0e"
+      },
+      {
+        "id": "33f69ebf-d4bc-5783-b9f9-c775941e63f1"
+      },
+      {
+        "id": "eb84acd1-4f11-5a1d-bfe3-7e206f62df59"
+      },
+      {
+        "id": "b68bd96d-846c-54d6-9e8f-60e3829604d1"
+      },
+      {
+        "id": "2b01b471-de63-53fa-ab78-1849a48359e9"
+      },
+      {
+        "id": "e7da15ff-087d-5d18-9270-3f48a323f84b"
+      },
+      {
+        "id": "6033d429-e759-5b65-8d38-bb7c259c9fdf"
+      },
+      {
+        "id": "51801d4d-3b14-57de-9c03-234fa3858e75"
+      },
+      {
+        "id": "591e4712-f713-5c4e-b8d4-cfe5e0d1fd96"
+      },
+      {
+        "id": "5c4d5a7e-31c4-560c-9c09-8fa2efe62198"
+      },
+      {
+        "id": "f1c05da6-4056-5715-b724-7c864a0bd1f7"
+      },
+      {
+        "id": "b15ee35e-5441-5c2b-b008-ea9b4379a213"
+      },
+      {
+        "id": "764db198-267f-59cf-b4a3-9d124610d6a9"
+      },
+      {
+        "id": "089291e9-e2ed-543f-afd3-443b1e83a10d"
+      },
+      {
+        "id": "bad9c427-3731-51c4-aca3-3a6f1149eca1"
+      },
+      {
+        "id": "e31d272e-1a55-5f81-a9fc-68be77e2aa37"
+      },
+      {
+        "id": "c9805280-b653-5576-a89b-8ea7e9c7ddaf"
+      },
+      {
+        "id": "be2b322f-d426-5086-9585-e952fc90cde7"
+      },
+      {
+        "id": "aae1b4b5-96b9-5be5-b9a5-2844a2339f88"
+      },
+      {
+        "id": "284b1055-e6f4-5e45-9471-f9699c111c13"
+      },
+      {
+        "id": "58798c1c-d958-587f-a648-80670fc1f1d2"
+      },
+      {
+        "id": "578002dd-04d6-52e5-9610-712a08bd0185"
+      },
+      {
+        "id": "ce111d3b-fbcd-52b8-92cd-e39dcf4cbc7d"
+      },
+      {
+        "id": "a1de98ac-3b21-585f-b926-20e497206096"
+      },
+      {
+        "id": "41d26269-c4f8-504c-bb91-8ee46c425bdd"
+      },
+      {
+        "id": "8d181929-9542-53f9-876f-11fcb308364f"
+      },
+      {
+        "id": "f65d55d2-bbcf-589f-961e-385fb60b5244"
+      },
+      {
+        "id": "9975d601-33e0-5728-91d9-826a86a35792"
+      },
+      {
+        "id": "686829b4-f069-53d5-bd04-49e1a5d3de16"
+      },
+      {
+        "id": "58db7ea4-b0d1-5833-9165-f0c89bd10d6e"
+      },
+      {
+        "id": "7b950d6a-a5fb-5479-804b-a39b73343d63"
+      },
+      {
+        "id": "942b4ea9-2af2-572d-acac-8660fc90024b"
+      },
+      {
+        "id": "dfc5e6b4-3539-5f6b-9ad1-360ef8014eeb"
+      },
+      {
+        "id": "a6c27b89-07dc-5389-851a-27dc67d88292"
+      },
+      {
+        "id": "94ccdf88-b3cc-5a6b-b6cd-ade367f06e25"
+      },
+      {
+        "id": "3fa17ffb-7cf7-5cf7-95ec-7cd41354770e"
+      },
+      {
+        "id": "295e8343-2d21-54a5-892b-d19c9d619fec"
+      },
+      {
+        "id": "ea52ee69-f4bd-54d3-8f09-e413f686f5c2"
+      },
+      {
+        "id": "71232641-a506-567a-b7e2-4db4c60c17a7"
+      },
+      {
+        "id": "1d6776c8-3c13-5a8a-b0a7-2bd0d410b435"
+      },
+      {
+        "id": "a05e76db-84f7-5f76-903c-b612ebe1e3dc"
+      },
+      {
+        "id": "4dc84b1d-19f4-5d1a-8e81-2cc5085a3f21"
+      },
+      {
+        "id": "a56d3792-6efc-5822-8d7f-e7ed254b92d8"
+      },
+      {
+        "id": "133c5035-68e1-579f-9dbe-de86a07ebd64"
+      },
+      {
+        "id": "1edb3126-b71f-5cfd-ae56-78e7c96f1347"
+      },
+      {
+        "id": "6137f9f5-5b8f-5726-85a1-6ea96a52a24c"
+      },
+      {
+        "id": "d818f900-ea45-5876-a016-3f8208ba8e71"
+      },
+      {
+        "id": "04a7b19a-0148-5a00-bff6-c92fe29aa3c4"
+      },
+      {
+        "id": "8ff68fca-d2d9-5bba-914f-f965f8d88982"
+      },
+      {
+        "id": "0c022f8d-8a8c-5b72-96eb-f92f41e70075"
+      },
+      {
+        "id": "12bd16d8-90f6-58f7-aaaa-57b5802b106f"
+      }
+    ]
+  },
+  "medior": {
+    "job_path_title": "Applied GenAI Engineering",
+    "job_path_description": "Build hands-on skills in deploying AI solutions, managing ethical frameworks, and developing real-world GenAI applications.",
+    "title": "GenAI Engineer",
+    "salary": "$110,000",
+    "range": [
+      "$90,000",
+      "$110,000",
+      "$130,000"
+    ],
+    "courses": [
+      {
+        "id": "c01ff5fc-f293-5cad-ab1f-341191cf66c1"
+      },
+      {
+        "id": "1017a32d-e73d-5c94-8bf1-c8f2823bed05"
+      },
+      {
+        "id": "0d5992c4-1592-5fcf-abdc-b5624db5c32c"
+      },
+      {
+        "id": "f81ad9d4-412d-50bc-8e50-b72389844f47"
+      },
+      {
+        "id": "1c81e35e-d992-5711-ae30-f44ebc63521a"
+      },
+      {
+        "id": "d3fd269a-c761-50dd-8b26-553179a20d9f"
+      },
+      {
+        "id": "a1950b89-90a7-586f-87f6-b8bb327f9f63"
+      },
+      {
+        "id": "daa8df87-842f-53b3-9e12-211399550be3"
+      },
+      {
+        "id": "6dcd1d85-5820-5ee2-8958-141c21ec16a7"
+      },
+      {
+        "id": "69fc2346-90d5-576c-b209-8767845194dd"
+      },
+      {
+        "id": "fd07e455-00eb-5679-b890-05ebcc5191d0"
+      },
+      {
+        "id": "9d774511-c2c8-539d-8875-904e6f263d6c"
+      },
+      {
+        "id": "d3a0cea0-efcf-5914-bf0b-18073c023b95"
+      },
+      {
+        "id": "bb30849e-e4be-5a4c-8287-09859d9111db"
+      },
+      {
+        "id": "701a8540-5686-522b-99fc-0236311b1aad"
+      },
+      {
+        "id": "1a4d5399-0f38-586f-a31f-55502c4879be"
+      },
+      {
+        "id": "dddbd4cc-f574-5e0b-9a0b-0967b28fd0cc"
+      },
+      {
+        "id": "6cfceeb8-16c0-52d1-8466-c041180c246f"
+      },
+      {
+        "id": "cd9ca579-33ac-5a34-9384-026954e2c76f"
+      },
+      {
+        "id": "63a9f752-f780-5457-834a-06d999687a0c"
+      },
+      {
+        "id": "63604589-805b-5e2f-9a73-0c058b6f3176"
+      },
+      {
+        "id": "0e970fa3-3304-54f9-94bf-56c1a44eb28b"
+      },
+      {
+        "id": "5d872487-5aa4-571f-891b-741fcf1626f5"
+      },
+      {
+        "id": "b59cbb3f-5e9d-5e44-a56c-5386c2d700be"
+      },
+      {
+        "id": "5abcbe0b-6392-5c76-8a25-bae694558ac2"
+      },
+      {
+        "id": "0ab50758-52bb-59ab-8de8-eab8b8609808"
+      },
+      {
+        "id": "3df3c069-dc5d-5612-8497-1ec69df657e8"
+      },
+      {
+        "id": "a59d6b33-d4f3-5079-bc3d-feb7e58ad7ef"
+      },
+      {
+        "id": "230bfb06-904a-5b8c-8fe0-10b6ac9a202e"
+      },
+      {
+        "id": "90b8b431-d18b-543c-a567-8eb34c4382f0"
+      },
+      {
+        "id": "8060096b-f20a-5d08-9412-313adb2a6447"
+      },
+      {
+        "id": "3a27ff33-872b-5c93-bf73-90bca594ed82"
+      },
+      {
+        "id": "300fd3ca-3845-5c7f-89ee-a5096069eeb2"
+      },
+      {
+        "id": "09ec0949-59f6-555a-9bf1-c8861ba22172"
+      },
+      {
+        "id": "c67a9392-4d1f-5c64-b72c-2a383a808bd2"
+      },
+      {
+        "id": "c301efed-3f7f-5756-8442-2f2c708875d0"
+      },
+      {
+        "id": "a5a923ee-068e-56a7-8f5a-a9f80474ba34"
+      },
+      {
+        "id": "8e08b3ec-f08d-579b-a6d0-aafb094770c8"
+      },
+      {
+        "id": "b9dad49a-a991-5084-bc7a-20dd3109bd85"
+      },
+      {
+        "id": "9a8a25fd-ae6d-5fc8-8293-dae9209ead90"
+      },
+      {
+        "id": "05679536-95bb-5e14-af82-ba5b47034c72"
+      },
+      {
+        "id": "7614d9ae-ee08-597b-bb48-e4463d1d3e3a"
+      },
+      {
+        "id": "5a0cbdaa-ea6f-5e69-8968-18075b4c071e"
+      }
+    ]
+  },
+  "senior": {
+    "job_path_title": "Strategic AI Leadership",
+    "job_path_description": "Lead teams and shape enterprise AI strategy with advanced training in data science, security, and emerging technologies.",
+    "title": "AI Solutions Architect",
+    "salary": "$140,000",
+    "range": [
+      "$120,000",
+      "$140,000",
+      "$160,000"
+    ],
+    "courses": [
+      {
+        "id": "c01ff5fc-f293-5cad-ab1f-341191cf66c1"
+      },
+      {
+        "id": "1017a32d-e73d-5c94-8bf1-c8f2823bed05"
+      },
+      {
+        "id": "0d5992c4-1592-5fcf-abdc-b5624db5c32c"
+      },
+      {
+        "id": "f81ad9d4-412d-50bc-8e50-b72389844f47"
+      },
+      {
+        "id": "1c81e35e-d992-5711-ae30-f44ebc63521a"
+      },
+      {
+        "id": "d3fd269a-c761-50dd-8b26-553179a20d9f"
+      },
+      {
+        "id": "a1950b89-90a7-586f-87f6-b8bb327f9f63"
+      },
+      {
+        "id": "daa8df87-842f-53b3-9e12-211399550be3"
+      },
+      {
+        "id": "6dcd1d85-5820-5ee2-8958-141c21ec16a7"
+      },
+      {
+        "id": "69fc2346-90d5-576c-b209-8767845194dd"
+      },
+      {
+        "id": "fd07e455-00eb-5679-b890-05ebcc5191d0"
+      },
+      {
+        "id": "9d774511-c2c8-539d-8875-904e6f263d6c"
+      },
+      {
+        "id": "d3a0cea0-efcf-5914-bf0b-18073c023b95"
+      },
+      {
+        "id": "bb30849e-e4be-5a4c-8287-09859d9111db"
+      },
+      {
+        "id": "701a8540-5686-522b-99fc-0236311b1aad"
+      },
+      {
+        "id": "1a4d5399-0f38-586f-a31f-55502c4879be"
+      },
+      {
+        "id": "dddbd4cc-f574-5e0b-9a0b-0967b28fd0cc"
+      },
+      {
+        "id": "6cfceeb8-16c0-52d1-8466-c041180c246f"
+      },
+      {
+        "id": "cd9ca579-33ac-5a34-9384-026954e2c76f"
+      },
+      {
+        "id": "63a9f752-f780-5457-834a-06d999687a0c"
+      },
+      {
+        "id": "63604589-805b-5e2f-9a73-0c058b6f3176"
+      },
+      {
+        "id": "0e970fa3-3304-54f9-94bf-56c1a44eb28b"
+      },
+      {
+        "id": "5d872487-5aa4-571f-891b-741fcf1626f5"
+      },
+      {
+        "id": "b59cbb3f-5e9d-5e44-a56c-5386c2d700be"
+      },
+      {
+        "id": "5abcbe0b-6392-5c76-8a25-bae694558ac2"
+      },
+      {
+        "id": "0ab50758-52bb-59ab-8de8-eab8b8609808"
+      },
+      {
+        "id": "3df3c069-dc5d-5612-8497-1ec69df657e8"
+      },
+      {
+        "id": "a59d6b33-d4f3-5079-bc3d-feb7e58ad7ef"
+      },
+      {
+        "id": "230bfb06-904a-5b8c-8fe0-10b6ac9a202e"
+      },
+      {
+        "id": "90b8b431-d18b-543c-a567-8eb34c4382f0"
+      },
+      {
+        "id": "8060096b-f20a-5d08-9412-313adb2a6447"
+      },
+      {
+        "id": "3a27ff33-872b-5c93-bf73-90bca594ed82"
+      },
+      {
+        "id": "300fd3ca-3845-5c7f-89ee-a5096069eeb2"
+      },
+      {
+        "id": "09ec0949-59f6-555a-9bf1-c8861ba22172"
+      },
+      {
+        "id": "c67a9392-4d1f-5c64-b72c-2a383a808bd2"
+      },
+      {
+        "id": "c301efed-3f7f-5756-8442-2f2c708875d0"
+      },
+      {
+        "id": "a5a923ee-068e-56a7-8f5a-a9f80474ba34"
+      },
+      {
+        "id": "8e08b3ec-f08d-579b-a6d0-aafb094770c8"
+      },
+      {
+        "id": "b9dad49a-a991-5084-bc7a-20dd3109bd85"
+      },
+      {
+        "id": "9a8a25fd-ae6d-5fc8-8293-dae9209ead90"
+      },
+      {
+        "id": "05679536-95bb-5e14-af82-ba5b47034c72"
+      },
+      {
+        "id": "7614d9ae-ee08-597b-bb48-e4463d1d3e3a"
+      },
+      {
+        "id": "5a0cbdaa-ea6f-5e69-8968-18075b4c071e"
+      }
+    ]
+  }
+}

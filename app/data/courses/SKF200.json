@@ -1,0 +1,19 @@
+{
+    "id": "SKF200",
+    "title": "Mastering Infrastructure Security: Strategies, Tools, and Practices (SKF200)",
+    "overview": "Empower yourself with the essential skills to fortify digital architectures against contemporary and emerging threats.",
+    "requirements": [
+      "General IT concepts, including operating systems, networking, and cloud computing.",
+      "Basic programming skills, especially in scripting languages such as Python or Bash.",
+      "Fundamental networking principles, including TCP/IP, DNS, routing, and subnetting.",
+      "Basic understanding of infrastructure components like servers, databases, and network equipment."
+    ],
+    "audience": "This course is designed for developers aiming to deepen their understanding of infrastructure security and management, particularly those interested in network penetration testing and infrastructure security skills.",
+    "details": {
+      "certificate": "Certificate of Completion and Digital Badge",
+      "duration": "24 Hours",
+      "level": "Intermediate",
+      "pricing": "$299",
+      "enroll_url": "https://training.linuxfoundation.org/training/mastering-infrastructure-security-strategies-tools-and-practices-skf200/"
+    }
+  }

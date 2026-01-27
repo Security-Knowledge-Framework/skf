@@ -1,0 +1,19 @@
+{
+    "id": "LFD106",
+    "title": "Secure Software Development: Verification and More Specialized Topics (LFD106)",
+    "overview": "This course is the second part of the Secure Software Development Fundamentals professional certificate program. It focuses on advanced topics including software verification techniques, secure software deployment, compliance requirements, and vulnerability response processes.",
+    "requirements": [
+      "Completion of LFD105: Secure Software Development: Requirements, Design, and Reuse",
+      "Familiarity with basic secure coding practices",
+      "Experience in software development and DevOps workflows"
+    ],
+    "audience": "Ideal for software developers, DevOps engineers, QA professionals, and security engineers who are looking to expand their expertise in software verification and compliance.",
+    "details": {
+      "certificate": "Professional Certificate and Digital Badge",
+      "duration": "15 Hours",
+      "level": "Intermediate",
+      "pricing": "Free",
+      "enroll_url": "https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/"
+    }
+  }
+  

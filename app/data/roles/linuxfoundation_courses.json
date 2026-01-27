@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "c01ff5fc-f293-5cad-ab1f-341191cf66c1",
+    "title": "Kubernetes Fundamentals (LFS258)",
+    "description": "Get a strong operation knowledge of Kubernetes.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals/"
+  },
+  {
+    "id": "1017a32d-e73d-5c94-8bf1-c8f2823bed05",
+    "title": "Kubernetes for Developers (LFD259)",
+    "description": "Learn how to containerize, host, deploy, and configure an application in a multi-node cluster.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-for-developers/"
+  },
+  {
+    "id": "28eded76-cea8-5ba1-85dd-8cd31665e4db",
+    "title": "DevOps and SRE Fundamentals: Implementing Continuous Delivery (LFS261)",
+    "description": "Get the skills to deploy software with confidence using CI/CD processes & tools.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/devops-and-sre-fundamentals-implementing-continuous-delivery-lfs261/"
+  },
+  {
+    "id": "b11b738a-197a-5b28-ba2b-e0ec724ca055",
+    "title": "Introduction to Kubernetes (LFS158)",
+    "description": "Get an in-depth primer on this powerful system for managing containerized applications in a clustered environment.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-kubernetes/"
+  },
+  {
+    "id": "0d5992c4-1592-5fcf-abdc-b5624db5c32c",
+    "title": "CKA Exam + THRIVE Subscription Bundle",
+    "description": "Bundle CKA with an annual THRIVE subscription to gain access to more than 100 educational products, including Kubernetes Fundamentals (LFS258), and \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$645",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/cka-exam-thrive-subscription-bundle/"
+  },
+  {
+    "id": "f81ad9d4-412d-50bc-8e50-b72389844f47",
+    "title": "CKAD Exam + THRIVE Subscription Bundle",
+    "description": "Bundle CKAD with an annual THRIVE subscription to gain access to more than 100 educational products, including Kubernetes for Developers (LFD259), \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$645",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/ckad-exam-thrive-subscription-bundle/"
+  },
+  {
+    "id": "a98c205c-43d7-51f6-9b8d-23954bbdb154",
+    "title": "Introduction to Serverless on Kubernetes (LFS157)",
+    "description": "Learn how to build serverless functions that can run on any cloud, without being restricted by limits on the execution \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-serverless-on-kubernetes-lfs157/"
+  },
+  {
+    "id": "cf79d5cd-76da-56d5-8899-de8b2e4f6673",
+    "title": "Introduction to Service Mesh with Linkerd (LFS143x)",
+    "description": "Learn the basics of service mesh and get hands-on practical experience with Linkerd, the open source, open governance, ultralight service \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-service-mesh-with-linkerd-lfs143/"
+  },
+  {
+    "id": "db9e6cca-0c22-5288-8410-aaa996a70b8b",
+    "title": "Kubernetes Security Essentials (LFS260)",
+    "description": "The course, along with real-world experience and study, will provide the skills and knowledge also tested by the Kubernetes Security \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260/"
+  },
+  {
+    "id": "71793cdc-158c-5bd4-9aaf-ee9d5c0ce19b",
+    "title": "CKS Exam + THRIVE Subscription Bundle",
+    "description": "Bundle CKS with an annual THRIVE subscription to gain access to more than 100 educational products, including Kubernetes Security Essentials (LFS260), \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$645",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/cks-exam-thrive-subscription-bundle/"
+  },
+  {
+    "id": "1c81e35e-d992-5711-ae30-f44ebc63521a",
+    "title": "Certified Kubernetes Administrator (CKA)+ Certified Kubernetes Security Specialist (CKS) Exam Bundle",
+    "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the competency to perform the responsibilities of Kubernetes administrators. \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$825",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/cka-cks-exam-bundle/"
+  },
+  {
+    "id": "9eafebba-cbac-587b-b659-5909d6ca1c92",
+    "title": "Introduction to Kubernetes on Edge with k3s (LFS156x)",
+    "description": "This course takes a deep dive into the use cases and applications of Kubernetes at the edge using examples, labs, \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-kubernetes-on-edge-with-k3s-lfs156x/"
+  },
+  {
+    "id": "09ca5cdf-dfa1-529d-8984-3069aec0ccab",
+    "title": "GitOps: Continuous Delivery on Kubernetes with Flux (LFS269)",
+    "description": "Master the art of automating Kubernetes deployments by implementing GitOps - the set of practices that enable developers to carry \u2026",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/gitops-continuous-delivery-on-kubernetes-with-flux-lfs269/"
+  },
+  {
+    "id": "d3fd269a-c761-50dd-8b26-553179a20d9f",
+    "title": "\u8a8d\u5b9aKubernetes\u7ba1\u7406\u8005 (CKA-JP) + \u8a8d\u5b9aKubernetes\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8 (CKS-JP) \u8a66\u9a13\u30d0\u30f3\u30c9\u30eb",
+    "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the competency to perform the responsibilities of Kubernetes administrators. \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$915",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/certified-kubernetes-administrator-cka-jp-certified-kubernetes-security-specialist-cks-jp-exam-bundle/"
+  },
+  {
+    "id": "a1950b89-90a7-586f-87f6-b8bb327f9f63",
+    "title": "Kubernetes Security Essentials (LFS260) + CKS-JP \u8a66\u9a13\u30d0\u30f3\u30c9\u30eb",
+    "description": "The Certified Kubernetes Security Specialist (CKS-JP) is an accomplished Kubernetes practitioner (as evidenced by holding the CKA-JP credential) who has \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$710",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260-cks-jp-exam-bundle/"
+  },
+  {
+    "id": "e14da5a7-292d-58f7-a0e7-a0b51315964b",
+    "title": "Implementing DevSecOps (LFS262)",
+    "description": "Get the skills to implement DevSecOps practices into the software development and delivery processes.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/implementing-devsecops-lfs262/"
+  },
+  {
+    "id": "23f5afba-c88c-51b0-a75a-e4cde5132a0e",
+    "title": "Kubernetes and Cloud Native Essentials (LFS250)",
+    "description": "This Kubernetes and Cloud Native Essentials course provides an overview of cloud native technologies and how container orchestration systems can \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250/"
+  },
+  {
+    "id": "dc0cca98-004c-5f54-8350-ed43a3270623",
+    "title": "Linux Foundation Certified IT Associate (LFCA) + Kubernetes and Cloud Native Associate (KCNA) Exam Bundle",
+    "description": "The LFCA exam is intended for those new to the industry or considering starting an IT career. KCNA exam demonstrates \u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$425",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-it-associate-lfca-kubernetes-and-cloud-native-associate-kcna-exam-bundle/"
+  },
+  {
+    "id": "33f69ebf-d4bc-5783-b9f9-c775941e63f1",
+    "title": "Kubernetes and Cloud Native Essentials (LFS250)+ Kubernetes and Cloud Native Associate (KCNA) Exam Bundle",
+    "description": "The LFS250 course provides an overview of cloud native technologies and how container orchestration systems like Kubernetes can help to \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-essentials-lfs250-kubernetes-and-cloud-native-associate-kcna-exam-bundle/"
+  },
+  {
+    "id": "eb84acd1-4f11-5a1d-bfe3-7e206f62df59",
+    "title": "Kuberbetes\u3068\u30af\u30e9\u30a6\u30c9\u30cd\u30a4\u30c6\u30a3\u30d6\u57fa\u790e (LFS250-JP)+ \u8a8d\u5b9aKubernetes\u30af\u30e9\u30a6\u30c9\u30cd\u30a4\u30c6\u30a3\u30d6\u30a2\u30bd\u30b7\u30a8\u30a4\u30c8 (KCNA-JP) Exam Bundle",
+    "description": "Note course content is in Japanese. The LFS250-JP course provides an overview of cloud native technologies and how container \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$328",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250-jp-kubernetes-and-cloud-native-associate-kcna-exam-bundle-2/"
+  },
+  {
+    "id": "b68bd96d-846c-54d6-9e8f-60e3829604d1",
+    "title": "Introduction to Istio (LFS144)",
+    "description": "Learn how you can monitor, connect, and secure microservices using Istio service mesh, the most widely adopted service mesh in \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-istio-lfs144/"
+  },
+  {
+    "id": "2b01b471-de63-53fa-ab78-1849a48359e9",
+    "title": "Linux Foundation \u8a8d\u5b9a IT \u30a2\u30bd\u30b7\u30a8\u30a4\u30c8 (LFCA-JP)+ \u8a8d\u5b9aKubernetes\u30af\u30e9\u30a6\u30c9\u30cd\u30a4\u30c6\u30a3\u30d6\u30a2\u30bd\u30b7\u30a8\u30a4\u30c8 (KCNA-JP) Bundle",
+    "description": "The LFCA exam is intended for those new to the industry or considering starting an IT career. KCNA exam demonstrates \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$475",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-foundation-certified-it-associate-lfca-jp-kubernetes-and-cloud-native-associate-kcna-jp-exam-bundle/"
+  },
+  {
+    "id": "e7da15ff-087d-5d18-9270-3f48a323f84b",
+    "title": "Introduction to Cilium (LFS146)",
+    "description": "Get a practical introduction to using Cilium as the networking plug-in for Kubernetes, including installation, observability with Hubble, securing network \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-cilium-lfs146/"
+  },
+  {
+    "id": "daa8df87-842f-53b3-9e12-211399550be3",
+    "title": "Modern Air Gap Software Delivery (LFS281)",
+    "description": "Gain valuable insights into the realm of air-gapped software systems for cloud-native solutions.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/modern-air-gap-software-delivery-lfs281/"
+  },
+  {
+    "id": "f26ecc22-04b7-58b8-ad4b-37f9f16ebcb4",
+    "title": "CI/CD with Tekton (LFS274)",
+    "description": "Master Tekton installation, configuration, task automation, pipeline creation, triggers, and extensions.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/ci-cd-with-tekton-lfs274/"
+  },
+  {
+    "id": "6dcd1d85-5820-5ee2-8958-141c21ec16a7",
+    "title": "Certified Kubernetes Administrator (CKA) + Certified Kubernetes Application Developer (CKAD) + Certified Kubernetes Security Specialist (CKS) Exam Bundle",
+    "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the competency to perform the responsibilities of Kubernetes administrators. \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$1245",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/cka-ckad-cks-exam-bundle/"
+  },
+  {
+    "id": "69fc2346-90d5-576c-b209-8767845194dd",
+    "title": "Kubernetes and Cloud Native Associate (KCNA) + Certified Kubernetes Administrator (CKA) Exam Bundle",
+    "description": "Start with the KCNA certification and then get your CKA!",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$645",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kcna-cka-exam-bundle/"
+  },
+  {
+    "id": "6033d429-e759-5b65-8d38-bb7c259c9fdf",
+    "title": "DevOps and Workflow Management with Argo (LFS256) + Certified Argo Project Associate (CAPA) Exam Bundle",
+    "description": "Learn to implement Argo to manage complex deployments and workflows & demonstrate your ability to navigate the Argo Project ecosystem.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/lfs256-capa/"
+  },
+  {
+    "id": "fd07e455-00eb-5679-b890-05ebcc5191d0",
+    "title": "Kubernetes and Cloud Native Security Associate (KCSA) + Certified Kubernetes Security Specialist (CKS) Exam Bundle",
+    "description": "The Kubernetes and Cloud Native Security Associate (KCSA) program provides assurance that KCSAs are accomplished Kubernetes practitioners. The Certified Kubernetes \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$645",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa-certified-kubernetes-security-specialist-cks-exam-bundle/"
+  },
+  {
+    "id": "51801d4d-3b14-57de-9c03-234fa3858e75",
+    "title": "Kubernetes and Cloud Native Associate (KCNA) Exam + Kubernetes and Cloud Native Security Associate (KCSA) Exam Bundle",
+    "description": "The Kubernetes and Cloud Native Associate (KCNA) program demonstrates a user\u2019s foundational knowledge and skills in the Kubernetes ecosystem. Th\u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$425",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate-kcna-kubernetes-and-cloud-native-security-associate-kcsa-exam-bundle/"
+  },
+  {
+    "id": "9d774511-c2c8-539d-8875-904e6f263d6c",
+    "title": "Kubestronaut Bundle (KCNA + KCSA + CKA + CKAD + CKS)",
+    "description": "The Kubestronaut program recognizes community leaders who have consistently invested in their ongoing education and grown their skill level with \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$1645",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kubestronaut-bundle/"
+  },
+  {
+    "id": "d3a0cea0-efcf-5914-bf0b-18073c023b95",
+    "title": "Certified Kubernetes Administrator (CKA) + Certified Kubernetes Application Developer (CKAD) Exam Bundle",
+    "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the competency to perform the responsibilities of Kubernetes administrators. \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$825",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka-certified-kubernetes-application-developer-ckad-exam-bundle/"
+  },
+  {
+    "id": "591e4712-f713-5c4e-b8d4-cfe5e0d1fd96",
+    "title": "Istio Service Mesh Essentials (LFS245) + Istio Certified Associate (ICA) Exam Bundle",
+    "description": "Dive into Istio, the secure, feature-rich, service mesh solution for Kubernetes-based microservices architecture.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/istio-service-mesh-essentials-lfs245istio-certified-associate-ica-exam-bundle/"
+  },
+  {
+    "id": "04849327-f4d1-5fba-b487-6d61ca6c19ff",
+    "title": "Introduction to Open Source Development, Git and Linux (LFD201)",
+    "description": "Learn how to develop open source software.",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-open-source-development-git-and-linux/"
+  },
+  {
+    "id": "1721a873-cbb3-5e72-b278-464e51b9d346",
+    "title": "A Beginner\u2019s Guide to Open Source Software Development (LFD102)",
+    "description": "Learn the key concepts in developing open source software.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/"
+  },
+  {
+    "id": "350014ef-66b3-5adb-88fd-d722a5ecfa62",
+    "title": "A Beginner\u2019s Guide to Linux Kernel Development (LFD103)",
+    "description": "Learn how to become a Linux kernel developer and contributor.",
+    "category": "Linux Kernel Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/"
+  },
+  {
+    "id": "6321c4c9-18d6-5a68-94fe-ea5408072ca6",
+    "title": "Introduction to Linux (LFS101)",
+    "description": "Develop a good working knowledge of Linux.",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-linux/"
+  },
+  {
+    "id": "399785b4-4c5b-5016-ac9a-b8f507b37579",
+    "title": "Secure Software Development: Requirements, Design, and Reuse (LFD104x)",
+    "description": "Learn to create and maintain systems that are much harder to successfully attack, reduce the damage when attacks are successful, \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/"
+  },
+  {
+    "id": "9edb882f-68fe-5d9f-98c5-1de2956f2e25",
+    "title": "Secure Software Development: Implementation (LFD105x)",
+    "description": "Learn to create and maintain systems that are much harder to successfully attack, implement secure software, reduce the damage when \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/"
+  },
+  {
+    "id": "ebf4e1a6-c823-59ac-95c4-640d1d6266be",
+    "title": "Secure Software Development: Verification and More Specialized Topics (LFD106x)",
+    "description": "Take a deeper dive into the basics of applying threat models and cryptography. Learn to create and maintain systems that \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/"
+  },
+  {
+    "id": "75a6f807-669c-51bf-9918-278cf323cd0d",
+    "title": "Fundamentals of Open Source IT and Cloud Computing (LFS200)",
+    "description": "The intent of this course is to take you on a journey from little or no knowledge of IT topics \u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/fundamentals-of-open-source-it-and-cloud-computing-lfs200/"
+  },
+  {
+    "id": "22d38e30-ccbd-500b-b121-170edfd46f5e",
+    "title": "Fundamentals of Open Source IT and Cloud Computing (LFS200)+ Linux Foundation Certified IT Associate (LFCA) Exam Bundle",
+    "description": "The LFS200 course takes you on a journey from little or no knowledge of IT topics to the knowledge needed \u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/fundamentals-of-open-source-it-and-cloud-computing-lfs200-linux-foundation-certified-it-associate-lfca-exam-bundle/"
+  },
+  {
+    "id": "7d5e1b29-cd58-5996-ac60-0d6a3afc8791",
+    "title": "Open Source Software Development: Linux for Developers (LFD107x)",
+    "description": "Start your open source software (OSS) adventure today!",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-software-development-linux-for-developers-lfd107x/"
+  },
+  {
+    "id": "4d9b17ed-7cef-5a73-b7d3-5c4b18aa9dc3",
+    "title": "Linux Tools for Software Development (LFD108x)",
+    "description": "Learn the tools you need to confidently work in Linux development environments and beyond.",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-tools-for-software-development-lfd108x/"
+  },
+  {
+    "id": "73fcf532-c8c5-557c-8bd6-1e16086c60a8",
+    "title": "Git for Distributed Software Development (LFD109x)",
+    "description": "Get a thorough introduction to Git, the source control system that enables widely distributed software development to operate efficiently.",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/git-for-distributed-software-development-lfd109x/"
+  },
+  {
+    "id": "96b5045f-4baa-5fad-8d59-aeb2fc19069a",
+    "title": "Introducci\u00f3n a Linux (LF-UPV-101x)",
+    "description": "Desarrolla un buen conocimiento pr\u00e1ctico de Linux sobre las principales familias de distribuci\u00f3n de Linux, tanto en el us\u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduccion-a-linux-lf-upv-101x/"
+  },
+  {
+    "id": "8222c7f2-509b-5845-89f8-74101a0ec23c",
+    "title": "Developing Secure Software (LFD121)",
+    "description": "Learn the security basics to develop software that is hardened against attacks, and understand how you can reduce the damage \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/developing-secure-software-lfd121/"
+  },
+  {
+    "id": "5c4d5a7e-31c4-560c-9c09-8fa2efe62198",
+    "title": "Securing Your Software Supply Chain with Sigstore (LFS182)",
+    "description": "Gain the knowledge and skills necessary to secure the integrity of your software by leveraging the Sigstore toolkit.",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/securing-your-software-supply-chain-with-sigstore-lfs182/"
+  },
+  {
+    "id": "ecadef0f-8a7f-53ec-a2d4-16eb05ebcc1f",
+    "title": "Software Engineering Basics for Embedded Systems (LFD116)",
+    "description": "Learn the skills and processes needed to create a high-quality, reliable, safe, and secure embedded system.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/software-engineering-basics-for-embedded-systems-lfd116/"
+  },
+  {
+    "id": "bddcc8e8-1c69-57e6-8cb6-47674c3da4ad",
+    "title": "Linux System Administration Essentials (LFS207)",
+    "description": "Get the background and training you need to start working as a Linux SysAdmin.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-system-administration-essentials-lfs207/"
+  },
+  {
+    "id": "da17e527-9b22-52c8-8819-e311566c3ca8",
+    "title": "Linux for Cloud Technicians Essentials (LFS203)",
+    "description": "This course provides essential knowledge for configuring and managing Linux systems and containers, expanding on the standard administration knowledge and \u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-for-cloud-technicians-essentials-lfs203/"
+  },
+  {
+    "id": "8c69defc-63d9-5d82-9760-ca9d997b9197",
+    "title": "RISC-V Fundamentals (LFD210) + RISC-V Foundational Associate (RVFA) Exam Bundle",
+    "description": "This course is designed for computer engineers and programmers looking to acquire the knowledge and skills necessary to work with \u2026",
+    "category": "IoT & Embedded Development",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/risc-v-fundamentals-lfd210-rvfa-exam-bundle/"
+  },
+  {
+    "id": "a8d3cc4f-5384-5ab1-a89b-503da4fee83a",
+    "title": "\u30bb\u30ad\u30e5\u30a2 \u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\uff1a\u8981\u4ef6\u3001\u8a2d\u8a08\u3001\u518d\u5229\u7528 (LFD104-JPx)",
+    "description": "Learn to create and maintain systems that are much harder to successfully attack, reduce the damage when attacks are successful, \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104-jpx/"
+  },
+  {
+    "id": "ceb71878-7fff-52b3-a498-9d06638f2da5",
+    "title": "\u30bb\u30ad\u30e5\u30a2 \u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\uff1a\u5b9f\u88c5 (LFD105-JPx)",
+    "description": "Learn to create and maintain systems that are much harder to successfully attack, implement secure software, reduce the damage when \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105-jpx/"
+  },
+  {
+    "id": "8675a947-069f-5251-b62d-bdf8c1c40a06",
+    "title": "\u30bb\u30ad\u30e5\u30a2 \u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\uff1a\u691c\u8a3c\u3001\u5c02\u9580\u7684\u30c8\u30d4\u30c3\u30af (LFD106-JPx)",
+    "description": "Take a deeper dive into the basics of applying threat models and cryptography. Learn to create and maintain systems that \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106-jpx/"
+  },
+  {
+    "id": "73758176-24a3-5b8e-8870-202660ec41a3",
+    "title": "Understanding the OWASP\u00ae Top 10 Security Threats (SKF100)",
+    "description": "Equip yourself to identify and address security risks, protect information & ensure online integrity.",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/owasp-top-ten-security-threats-skf100/"
+  },
+  {
+    "id": "ca3c6d03-52f4-53c1-b576-d71a1002a53c",
+    "title": "Mastering Infrastructure Security: Strategies, Tools, and Practices (SKF200)",
+    "description": "Empower yourself with the essential skills to fortify digital architectures against contemporary and emerging threats.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/mastering-infrastructure-security-strategies-tools-and-practices-skf200/"
+  },
+  {
+    "id": "ffce7517-dd61-5404-80f3-9704a260a751",
+    "title": "Grundlagen der Linux System Administration (LFS207-DE)",
+    "description": "Get the background and training you need to start working as a Linux sysadmin.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/grundlagen-der-linux-system-administration-lfs207-de/"
+  },
+  {
+    "id": "c228587b-f643-5f7f-b964-9f3e7a955940",
+    "title": "Threat Modeling: The Essentials Toolkit (SKF201)",
+    "description": "Learn to identify, assess, and address threats in system design using threat modeling frameworks, practical tools, and real-life case studies.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/threat-modeling-the-essentials-toolkit-skf201/"
+  },
+  {
+    "id": "3b81e045-ba25-5877-90a4-c38bef4b81e7",
+    "title": "Security for Software Development Managers (LFD125)",
+    "description": "This course ensures you have the knowledge and skills needed to help teams of developers produce secure software regardless of \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/security-for-software-development-managers-lfd125/"
+  },
+  {
+    "id": "c67f5b66-7824-5e34-986c-fd00564909bf",
+    "title": "CI/CD with Jenkins X (LFS268)",
+    "description": "Get the skills you need to create Pipeline as Code workflows with Jenkins X.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/ci-cd-with-jenkins-x-lfs268/"
+  },
+  {
+    "id": "1b5a8e0d-2244-5afd-9fb2-752517f1497a",
+    "title": "LFCS Exam + THRIVE Subscription Bundle",
+    "description": "The Linux Foundation Certified System Administrator exam is ideal for candidates looking to validate their Linux system administration skill set. \u2026",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$645",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/lfcs-exam-thrive-subscription-bundle/"
+  },
+  {
+    "id": "b62b2ac6-4228-5083-819e-c15d17830f5c",
+    "title": "Node.js Application Development (LFW211)",
+    "description": "Improve your versatility in creating various types of Node.js applications and prepare for the Node.js Application Developer Certification.",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/nodejs-application-development-lfw211/"
+  },
+  {
+    "id": "bb30849e-e4be-5a4c-8287-09859d9111db",
+    "title": "Cloud Native Logging with Fluentd and Fluent Bit (LFS242)",
+    "description": "Get the skills necessary to deploy Fluentd and Fluent Bit in a wide range of production settings.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/cloud-native-logging-with-fluentd-lfs242/"
+  },
+  {
+    "id": "701a8540-5686-522b-99fc-0236311b1aad",
+    "title": "Containers Fundamentals (LFS253)",
+    "description": "Learn how to install, spin up, manage, and troubleshoot containers.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/containers-fundamentals/"
+  },
+  {
+    "id": "1a4d5399-0f38-586f-a31f-55502c4879be",
+    "title": "Managing Kubernetes Applications with Helm (LFS244)",
+    "description": "Learn about Helm, and how it's used in real-world scenarios to manage the lifecycle of applications on Kubernetes.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/managing-kubernetes-applications-with-helm-lfs244/"
+  },
+  {
+    "id": "dddbd4cc-f574-5e0b-9a0b-0967b28fd0cc",
+    "title": "Monitoring Systems and Services with Prometheus (LFS241)",
+    "description": "Learn how to monitor your systems and services effectively with Prometheus.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/monitoring-systems-and-services-with-prometheus-lfs241/"
+  },
+  {
+    "id": "6cfceeb8-16c0-52d1-8466-c041180c246f",
+    "title": "Service Mesh Fundamentals (LFS243)",
+    "description": "Learn how to manage the challenges posed by distributed systems using service mesh technologies such as Envoy Proxy and the \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/service-mesh-fundamentals-lfs243/"
+  },
+  {
+    "id": "cd9ca579-33ac-5a34-9384-026954e2c76f",
+    "title": "Containers for Developers and Quality Assurance (LFD254)",
+    "description": "Learn how to automate and streamline your development and QA processes with Docker.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/containers-for-developers-and-quality-assurance/"
+  },
+  {
+    "id": "2211951d-3dc7-5672-89e4-45e4b721eed9",
+    "title": "Open Source Licensing Basics for Software Developers (LFC191)",
+    "description": "Learn why it is important to add copyrights and licenses to their code, as well as how to do so.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-licensing-basics-for-software-developers/"
+  },
+  {
+    "id": "f1c05da6-4056-5715-b724-7c864a0bd1f7",
+    "title": "Business Considerations for 5G with Edge, IoT and AI (LFS110x)",
+    "description": "Learn how networks are being redefined to support a 5G world and what is required of businesses to take advantage \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/business-considerations-for-5g-iot-and-ai-lfs110/"
+  },
+  {
+    "id": "c15f241b-f32c-5f88-9e4e-6932e2397cb9",
+    "title": "Open Source and the 5G Transition (LFS111)",
+    "description": "Open source software and standards are driving the transition to 5G, AI and IoT. Learn what open source technologies matter \u2026",
+    "category": "Networking",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-and-the-5g-transition-lfs111/"
+  },
+  {
+    "id": "b15ee35e-5441-5c2b-b008-ea9b4379a213",
+    "title": "Ethics in AI and Data Science (LFS112)",
+    "description": "Learn how to build and incorporate ethical principles and frameworks in your AI and Data Science technology and business initiatives \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/ethics-in-ai-and-data-science-lfs112/"
+  },
+  {
+    "id": "2f9f4f99-02c5-520e-b36f-133b9e96e80d",
+    "title": "Exploring GraphQL:  A Query Language for APIs (LFS141x)",
+    "description": "Learn about GraphQL, an alternative to REST, and practice GraphQL queries in an interactive playground.",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/"
+  },
+  {
+    "id": "764db198-267f-59cf-b4a3-9d124610d6a9",
+    "title": "Introduction to Cloud Infrastructure Technologies (LFS151)",
+    "description": "Get a fundamental understanding of today\u2019s top open source cloud technology options.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-cloud-infrastructure-technologies/"
+  },
+  {
+    "id": "dbf5692d-0e2c-5490-be3e-6a62d1611150",
+    "title": "Introduction to DevOps and Site Reliability Engineering (LFS162)",
+    "description": "Learn how to start transforming your organization using the principles and practices of DevOps.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/"
+  },
+  {
+    "id": "9e9777f4-6fb0-5f23-84b0-1a09f0351f3c",
+    "title": "Inclusive Speaker Orientation (LFC101)",
+    "description": "Learn the essential background knowledge and practical skills to promote inclusivity in presentations, messaging and other communications.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/inclusive-speaker-orientation/"
+  },
+  {
+    "id": "089291e9-e2ed-543f-afd3-443b1e83a10d",
+    "title": "Introduction to Hyperledger Self-Sovereign Identity Blockchain Solutions (LFS172x)",
+    "description": "Learn how Hyperledger Aries, Indy, AnonCreds, and Ursa add a necessary layer of trust to the Internet, creating and using \u2026",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa/"
+  },
+  {
+    "id": "f1991a37-a1d7-5414-9066-198c3ff4be45",
+    "title": "Introduction to Jenkins (LFS167)",
+    "description": "Get the skills you need to get certified and work as a Linux systems engineer.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-jenkins-lfs167/"
+  },
+  {
+    "id": "bad9c427-3731-51c4-aca3-3a6f1149eca1",
+    "title": "Blockchain: Understanding Its Uses and Implications (LFS170)",
+    "description": "Understand exactly what a blockchain is, its impact and potential for change around the world, and analyze use cases.",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/blockchain-understanding-its-uses-and-implications/"
+  },
+  {
+    "id": "e31d272e-1a55-5f81-a9fc-68be77e2aa37",
+    "title": "Becoming a Hyperledger Aries Developer (LFS173x)",
+    "description": "Develop blockchain-based production-ready identity applications with Hyperledger Aries.",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/becoming-a-hyperledger-aries-developer-lfs173/"
+  },
+  {
+    "id": "49f50a57-76fb-5dd4-a835-642880a52ff4",
+    "title": "JSNAD Exam + THRIVE Subscription Bundle",
+    "description": "Improve your versatility in creating various types of Node.js applications and prepare for the Node.js Application Developer Certification.",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$595",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/jsnad-exam-thrive-subscription-bundle/"
+  },
+  {
+    "id": "bfb3e80d-18b7-5669-ae29-bdf25b8e6b74",
+    "title": "Jenkins Essentials (LFS267)",
+    "description": "Get the skills you need to scale a Jenkins CI/CD server using containerized and cloud-based solutions, use Jenkins multi-branch \u2026",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/jenkins-essentials-lfs267/"
+  },
+  {
+    "id": "22719312-65d0-5fee-a6aa-e401217e072f",
+    "title": "Node.js Services Development (LFW212)",
+    "description": "Get a deep dive into Node core HTTP clients and servers, web servers, RESTful services and web security essentials and \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/node-js-services-development-lfw212/"
+  },
+  {
+    "id": "0f4c3dea-c86a-5577-ad99-efb3054ea33d",
+    "title": "JSNSD Exam + THRIVE Subscription Bundle",
+    "description": "Get a deep dive into Node core HTTP clients and servers, web servers, RESTful services and web security essentials and \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$595",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/jsnsd-exam-thrive-subscription-bundle/"
+  },
+  {
+    "id": "ec108d47-fa91-5749-9846-76a041353b99",
+    "title": "Inclusive Open Source Community Orientation (LFC102)",
+    "description": "Learn the essential background knowledge and practical skills to create an inclusive culture in the open source community.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/inclusive-open-source-community-orientation-lfc102/"
+  },
+  {
+    "id": "584c9687-917f-5cf2-9cc9-7f01f58e7c7a",
+    "title": "Open Source Management & Strategy",
+    "description": "Learn to build effective processes and strategies for creating new open source projects from scratch, or from open sourcing previously \u2026",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$499",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-management-and-strategy/"
+  },
+  {
+    "id": "79bce860-5d18-546d-9d2d-fa086f6f8fea",
+    "title": "Introduction to WebAssembly (LFD133)",
+    "description": "Get a solid foundation on the WebAssembly runtime and its capabilities, and learn how and why WebAssembly has succeeded in \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-webassembly-lfd133/"
+  },
+  {
+    "id": "57151b3e-1d86-56fb-a0b3-ec54266736f8",
+    "title": "Introduction to Node.js (LFW111)",
+    "description": "Get started with Node.js, the most popular open source JavaScript runtime. Discover the ways in which Node.js helps \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-nodejs-lfw111/"
+  },
+  {
+    "id": "32c956f5-8bd2-54ad-bafd-8e78915f91bb",
+    "title": "Building a RISC-V CPU Core (LFD111x)",
+    "description": "Create a RISC-V CPU with modern open source circuit design tools, methodologies, and microarchitecture, all from your browser.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/building-a-riscv-cpu-core-lfd111x/"
+  },
+  {
+    "id": "798a739f-93c7-5b5b-95c1-2bca07361f25",
+    "title": "Introduction to RISC-V (LFD110)",
+    "description": "Discover various aspects of RISC-V, including technical aspects, specifications and the community ecosystem.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-riscv-lfd110/"
+  },
+  {
+    "id": "5ac46872-04ce-5051-bd22-bda60220a2e0",
+    "title": "WebAssembly Components: From Cloud to Edge (LFD134)",
+    "description": "Embrace the component model to build portable, secure, lightweight WebAssembly modules that thrive in the cloud, at the edge, and \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/webassembly-components-from-cloud-to-edge-lfd134/"
+  },
+  {
+    "id": "9bfa1964-c748-5356-9da9-03868534666a",
+    "title": "Introduction to Magma: Cloud Native Wireless Networking (LFS166)",
+    "description": "Learn about the Magma project, an open source implementation of a mobile network core. Magma supports diverse radio technologies, including \u2026",
+    "category": "Networking",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-magma-cloud-native-wireless-networking-lfs166/"
+  },
+  {
+    "id": "c9805280-b653-5576-a89b-8ea7e9c7ddaf",
+    "title": "Besu Essentials: Creating a Private Blockchain Network (LFS176x)",
+    "description": "Want to get hands-on experience with a blockchain? Start your blockchain journey by getting to  know the functionality and features \u2026",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/besu-essentials-creating-a-private-blockchain-network-lfs176x/"
+  },
+  {
+    "id": "5c9196c0-c111-5fa3-916c-8e9122e7e4a4",
+    "title": "Generating a Software Bill of Materials (LFC192)",
+    "description": "Learn to identify the minimum elements for a Software Bill of Materials (SBOM) and how they can be coded up, \u2026",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/generating-a-software-bill-of-materials-sbom-lfc192/"
+  },
+  {
+    "id": "beeedf4c-1f9b-5c8a-acdc-5d17bff39403",
+    "title": "Introduction to GitOps (LFS169)",
+    "description": "Learn how GitOps could help you deploy to a Kubernetes environment with a simple pull request from git. Understand the \u2026",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/"
+  },
+  {
+    "id": "be2b322f-d426-5086-9585-e952fc90cde7",
+    "title": "Introduction to Cloud Foundry (LFD132x)",
+    "description": "Learn what Cloud Foundry is and why it should be used, and explore the features and capabilities of Cloud Foundry, \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-cloud-foundry-lfd132x/"
+  },
+  {
+    "id": "95ec691e-d135-5457-8fa1-88ff0cac66af",
+    "title": "Inclusive Strategies for Open Source (LFC103)",
+    "description": "Learn effective strategies for creating inclusive open source communities and code bases.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/inclusive-strategies-for-open-source-lfc103/"
+  },
+  {
+    "id": "cef20352-b2d6-5686-897e-07322ee97235",
+    "title": "Introduction to Open Source License Compliance Management (LFC193)",
+    "description": "Learn the basic concepts and approaches needed for an open source compliance program.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-open-source-license-compliance-management-lfc193/"
+  },
+  {
+    "id": "933c1c52-2a29-5a5e-8a42-a89829ddb0d5",
+    "title": "Ethics for Open Source Development (LFC104)",
+    "description": "Learn how to operationalize ethics as a tool for efficient and effective decision-making when developing and using open source technology.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/ethics-for-open-source-development-lfc104/"
+  },
+  {
+    "id": "9bbb9244-4dc8-5484-979a-49a94bf7ce80",
+    "title": "Implementing Open Source License Compliance Management (LFC194)",
+    "description": "Learn how an open source compliance management system should be structured and implemented to be most effective.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/implementing-open-source-license-compliance-management-lfc194/"
+  },
+  {
+    "id": "237195ea-4c70-5d08-aa51-f0154709e027",
+    "title": "Introduction to DevSecOps for Managers (LFS180)",
+    "description": "Get an overview of the history, terminology, processes, and tools used to adopt Continuous Delivery and DevSecOps within any organization.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-devsecops-for-managers-lfs180/"
+  },
+  {
+    "id": "cda90eaa-de2f-57f6-9e33-e532221be604",
+    "title": "Fundamentals of Quantum Computing (LFQ101)",
+    "description": "Learn how quantum computing could be used for complex decision making far beyond current computer capabilities, and understand the technological, \u2026",
+    "category": "Emerging Technologies",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/fundamentals-of-quantum-computing-lfq101/"
+  },
+  {
+    "id": "aae1b4b5-96b9-5be5-b9a5-2844a2339f88",
+    "title": "Data and AI Fundamentals (LFS115x)",
+    "description": "Learn the fundamentals of Artificial Intelligence with a combination of AI fundamentals and an overview of the rich Linux Foundation \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/data-and-ai-fundamentals-lfs115x/"
+  },
+  {
+    "id": "981d7a4d-2363-5114-93ea-1404b60d02d5",
+    "title": "Getting Started with Self-Sovereign Identity (LFS178)",
+    "description": "Gain a solid foundation on self-sovereign identity (SSI) with a 360 degree overview of its evolutionary journey, key concepts, standards, technological \u2026",
+    "category": "Emerging Technologies",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/getting-started-with-self-sovereign-identity-lfs178/"
+  },
+  {
+    "id": "284b1055-e6f4-5e45-9471-f9699c111c13",
+    "title": "PyTorch and Deep Learning for Decision Makers (LFS116)",
+    "description": "Learn how PyTorch, a deep learning framework, can be used to automate and optimize processes through the development and deployment \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/pytorch-and-deep-learning-for-decision-makers-lfs116/"
+  },
+  {
+    "id": "58798c1c-d958-587f-a648-80670fc1f1d2",
+    "title": "Introduction to Backstage: Developer Portals Made Easy (LFS142)",
+    "description": "Create a Backstage setup that fits your organization\u2019s needs.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-backstage-developer-portals-made-easy-lfs142/"
+  },
+  {
+    "id": "e796c6b8-714e-5c5a-bd34-2670de53d9fb",
+    "title": "Green Software for Practitioners (LFC131)",
+    "description": "Learn the basic concepts a software practitioner needs to know to build, maintain and run greener applications.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/"
+  },
+  {
+    "id": "0dcaaa33-8617-539c-83f4-33a9c81997fe",
+    "title": "Foundations of RISC-V Assembly Programming (LFD117x)",
+    "description": "Gain basic hardware-related RISC-V assembly programming knowledge and skills.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "2",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/foundations-of-risc-v-assembly-programming-lfd117x/"
+  },
+  {
+    "id": "355d0d45-8254-500e-bbd9-f130b20d24cb",
+    "title": "Antitrust Laws and Open Source Software Project Management and Participation (LFC105)",
+    "description": "This course will prepare you to be a legally responsible participant in open source project activities of any type.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/antitrust-laws-and-open-source-software-project-management-and-participation-lfc105/"
+  },
+  {
+    "id": "b722ee66-dfe9-509f-8ba1-ffc7e72d083e",
+    "title": "Introduction to Protocol Buffers (LFS145)",
+    "description": "Learn about protocol buffers.",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-protocol-buffers-lfs145/"
+  },
+  {
+    "id": "31bdec0a-7998-50e1-81d1-49ae2c77aff8",
+    "title": "Cybersecurity Essentials (LFC108)",
+    "description": "Review and reinforce the must-know cybersecurity topics, terms and practices  needed to keep you, your employer and your data safe \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/cybersecurity-essentials-lfc108/"
+  },
+  {
+    "id": "2fb3044f-0954-59a9-b847-55d8804f0ef9",
+    "title": "Interacting with REST and HTTP-based APIs (LFEL2001)",
+    "description": "Enroll today today & quickly learn the key concepts of API, REST API, and HTTP API. Course includes a hands-on lab \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$49",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/interacting-with-rest-and-http-based-apis-lfel2001/"
+  },
+  {
+    "id": "0c214fb8-8b4d-5318-86a9-c09211223db7",
+    "title": "RISC-V Fundamentals (LFD210)",
+    "description": "Learn everything you need to know about RISC-V, the open-source instruction set architecture that is predicted to become ubiquitous as \u2026",
+    "category": "IoT & Embedded Development",
+    "difficulty": "1",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/riscv-fundamentals-lfd210/"
+  },
+  {
+    "id": "90a5120c-255a-57d4-a1b1-bb66f00501f3",
+    "title": "Computer Architecture with an Industrial RISC-V Core [RVfpga] (LFD119x)",
+    "description": "Get a practical introduction to using RISC-V computer architecture based on a RISC-V system-on-chip (SoC) targeted to a field-programmable gate \u2026",
+    "category": "IoT & Embedded Development",
+    "difficulty": "3",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/computer-architecture-with-an-industrial-riscv-core-rvfpga-lfd119x/"
+  },
+  {
+    "id": "578002dd-04d6-52e5-9610-712a08bd0185",
+    "title": "Ethical Principles for Conversational AI (LFS118)",
+    "description": "Learn about the impact and ethical challenges of conversational/voice AI, while exploring the principles and frameworks needed to help \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/ethical-principles-in-conversational-ai-lfs118/"
+  },
+  {
+    "id": "68efe9b6-1a00-5c50-a244-a729ce89043c",
+    "title": "Quantum Computing Essentials for Senior Leaders (LFQ102)",
+    "description": "The course provides you the knowledge needed to make the changes needed to meet the upcoming quantum technology demands.",
+    "category": "Emerging Technologies",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/quantum-computing-essentials-for-senior-leaders-lfq102/"
+  },
+  {
+    "id": "4d90085d-3eba-5c62-863c-d0d863b6400d",
+    "title": "Introduction to FDC3 (LFEL1000)",
+    "description": "Enroll today to build your knowledge & skills of FDC3, the key interoperability standard for the financial industry!",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/introduction-to-fdc3-lfel1000/"
+  },
+  {
+    "id": "6be5fe9c-052c-5398-b37b-7ff8bf9d92b8",
+    "title": "Creating Edge IoT Solutions with EdgeX Foundry (LFEL1003)",
+    "description": "Push your career to the edge with EdgeX. Enroll today to understand EdgeX's potential for building edge solutions without any \u2026",
+    "category": "IoT & Embedded Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/creating-edge-iot-solutions-with-edgex-foundry-lfel1003/"
+  },
+  {
+    "id": "37d3d7f0-4884-571d-9ef1-fe330b86f3c1",
+    "title": "Security Self-Assessments for Open Source Projects (LFEL1005)",
+    "description": "Quickly learn to self-assess the security of your open source projects. Self-assessment skills are also key for participating in joint \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/security-self-assessments-for-open-source-projects-lfel1005/"
+  },
+  {
+    "id": "1a7c0808-ec0f-5d08-be0c-67e46be6fdad",
+    "title": "Securing Projects with OpenSSF Scorecard (LFEL1006)",
+    "description": "Quickly learn how to apply the OpenSSF Scorecard to your unique software development lifecycle for increased software security.",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/securing-projects-with-openssf-scorecard-lfel1006/"
+  },
+  {
+    "id": "ce111d3b-fbcd-52b8-92cd-e39dcf4cbc7d",
+    "title": "Automating Supply Chain Security: SBOMs and Signatures (LFEL1007)",
+    "description": "Quickly learn to automate key aspects of software supply chain security including: evaluating dependency management solutions, creating attestations, verifying artifact \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/automating-supply-chain-security-sboms-and-signatures-lfel1007/"
+  },
+  {
+    "id": "63a9f752-f780-5457-834a-06d999687a0c",
+    "title": "PyTorch Essentials: An Applications-First Approach (LFD273)",
+    "description": "Start prototyping AI applications powered by PyTorch.",
+    "category": "AI & ML",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/pytorch-essentials-an-applications-first-approach-lfd273/"
+  },
+  {
+    "id": "0be5076b-ba27-5a13-8e22-265445af65a9",
+    "title": "Open Source Contribution in Finance (LFD137)",
+    "description": "Understand the risks of contributing to open source software in the finance industry and the procedures for doing so safely.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-contribution-in-finance-lfd137/"
+  },
+  {
+    "id": "dbe37cb6-8e0d-511e-b612-1301c3030450",
+    "title": "Developing Solutions with FDC3 (LFD237)",
+    "description": "Master the FDC3 Standard to build FDC3-enabled applications, publish them, and create standards-aligned custom Contextual Elements and Intents.",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/developing-solutions-with-fdc3-lfd237/"
+  },
+  {
+    "id": "a46ba81a-e4aa-52dc-8a31-cbc18cf0854f",
+    "title": "Getting Started with Rust (LFEL1002)",
+    "description": "Rust is becoming the go-to choice for those who aim to craft robust, efficient code. Enroll today and learn to \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/getting-started-with-rust-lfel1002/"
+  },
+  {
+    "id": "63604589-805b-5e2f-9a73-0c058b6f3176",
+    "title": "Cloud Native Fuzzing Fundamentals (LFS251)",
+    "description": "Learn the fundamentals of fuzzing, with an emphasis on identifying reliability and security vulnerabilities by applying fuzzing to real-world software \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/cloud-native-fuzzing-fundamentals-lfs251/"
+  },
+  {
+    "id": "0e970fa3-3304-54f9-94bf-56c1a44eb28b",
+    "title": "Detecting Cloud Runtime Threats with Falco (LFS254)",
+    "description": "Learn about Falco and how to install and use it in securing cloud native environments.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/detecting-cloud-runtime-threats-with-falco-lfs254/"
+  },
+  {
+    "id": "9588bbfe-4b83-5154-acab-5c8119a34389",
+    "title": "Introduction to Zero Trust (LFS183)",
+    "description": "Learn the fundamentals of Zero Trust and how open source tools such as SPIFFE and SPIRE can be used to \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-zero-trust-lfs183/"
+  },
+  {
+    "id": "27545fd3-306a-539e-aeab-27bace385e04",
+    "title": "Open Source Technical Documentation Essentials (LFC111)",
+    "description": "Get started with creating and executing a documentation plan for your open source, developer-oriented project.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-technical-documentation-essentials-lfc111/"
+  },
+  {
+    "id": "eba18d53-351c-577c-ac62-b27b65fb308f",
+    "title": "Creating Effective Documentation for Developers (LFC112)",
+    "description": "Create inclusive documentation for new users and foster engagement, while leveraging specific skills to meet the unique API documentation requirements \u2026",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/creating-effective-documentation-for-developers-lfc112/"
+  },
+  {
+    "id": "62e05552-e1b2-5cf6-9b54-e8d75a72f42e",
+    "title": "Remote Work at Scale (LFC114)",
+    "description": "Master remote work: build your workspace, improve communication, and drive results from anywhere.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/remote-work-at-scale-lfc114/"
+  },
+  {
+    "id": "5d872487-5aa4-571f-891b-741fcf1626f5",
+    "title": "Mastering Kubernetes Security with Kyverno (LFS255)",
+    "description": "Learn to implement and enforce security policies with Kyverno to manage Kubernetes resources effectively.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/mastering-kubernetes-security-with-kyverno-lfs255/"
+  },
+  {
+    "id": "b59cbb3f-5e9d-5e44-a56c-5386c2d700be",
+    "title": "Mastering Kubernetes Event-Driven Autoscaling with KEDA (LFS257)",
+    "description": "Develop the skills to configure and optimize KEDA for a variety of Kubernetes environments.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/mastering-kubernetes-event-driven-autoscaling-with-keda-lfs257/"
+  },
+  {
+    "id": "6f92bbf2-2925-5e4d-88b3-274c7724973a",
+    "title": "DevOps and Workflow Management with Argo (LFS256)",
+    "description": "Learn to streamline Kubernetes workflows with Argo tools.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "2",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/devops-and-workflow-management-with-argo-lfs256/"
+  },
+  {
+    "id": "a1de98ac-3b21-585f-b926-20e497206096",
+    "title": "Introduction to AI/ML Toolkits with Kubeflow (LFS147)",
+    "description": "Explore the origins, deployment options, individual components and common integrations of Kubeflow.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-ai-ml-toolkits-with-kubeflow-lfs147/"
+  },
+  {
+    "id": "41d26269-c4f8-504c-bb91-8ee46c425bdd",
+    "title": "Scaling Cloud Native Applications with KEDA (LFEL1014)",
+    "description": "Enroll today to quickly understand how to design and deploy applications that can dynamically scale based on actual demand in \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/scaling-cloud-native-applications-with-keda-lfel1014/"
+  },
+  {
+    "id": "2f0a3365-31b4-5cab-9b66-c1d53eb776d2",
+    "title": "Dapr with WebAssembly (LFD233)",
+    "description": "Boost your practical skills in Dapr and WebAssembly to build scalable, efficient, and secure cloud applications.",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/dapr-with-webassembly-lfd233/"
+  },
+  {
+    "id": "495c21dd-dd8a-5f2d-a7e5-a56541432578",
+    "title": "Introduction to Nephio (LFS179)",
+    "description": "Get introduced to Nephio, network automation that delivers carrier-grade, Kubernetes-based automation that simplifies large-scale, edge deployments.",
+    "category": "Networking",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-nephio-lfs179/"
+  },
+  {
+    "id": "03392246-ed4a-50bf-ae4d-204b73d86a5b",
+    "title": "Leading High-Performance Working Group Meetings (LFC120)",
+    "description": "Learn to lead meetings that foster teamwork, inspire action and achieve tangible results.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/leading-high-performance-working-group-meetings-lfc120/"
+  },
+  {
+    "id": "5abcbe0b-6392-5c76-8a25-bae694558ac2",
+    "title": "Istio Service Mesh Essentials (LFS245)",
+    "description": "Dive into Istio, the secure, feature-rich, service mesh solution for Kubernetes-based microservices architecture.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/istio-service-mesh-essentials-lfs245/"
+  },
+  {
+    "id": "2b288981-b305-5b5b-9634-63e4bb4159f0",
+    "title": "OpenAPI Fundamentals (LFEL1011)",
+    "description": "Make yourself more competitive in today's job market by learning to create well-defined and easy-to-use APIs!",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/openapi-fundamentals-lfel1011/"
+  },
+  {
+    "id": "c8d86adf-e7ae-5d70-9adc-ceee1ba15fd1",
+    "title": "Open Source Introduction (LFC202)",
+    "description": "Learn essential open source concepts to participate in important discussions and help make informed decisions for your organization.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-introduction-lfc202/"
+  },
+  {
+    "id": "0498e8c5-65d0-5a2b-9512-55393d7f532b",
+    "title": "Open Source Business Strategy (LFC203)",
+    "description": "Learn business, strategic & programmatic elements of open source.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-business-strategy-lfc203/"
+  },
+  {
+    "id": "74d16d44-ff8b-561e-acc5-848326d6a9e8",
+    "title": "Effective Open Source Program Management (LFC204)",
+    "description": "Learn about effective open source program management utilizing an open source program office (OSPO).",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/effective-open-source-program-management-lfc204/"
+  },
+  {
+    "id": "aa01668b-3f4b-5213-9547-1d09e20760ce",
+    "title": "Open Source Development Practices (LFC205)",
+    "description": "Learn about open source best practices for development and governance.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-development-practices-lfc205/"
+  },
+  {
+    "id": "ab2d3db3-4542-5263-aeae-367b43fdacf0",
+    "title": "Open Source Compliance Programs (LFC206)",
+    "description": "Learn about open source license compliance, including how to implement an effective compliance program.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-compliance-programs-lfc206/"
+  },
+  {
+    "id": "036639be-d406-5faa-9ab9-320b4a0fc219",
+    "title": "Collaborating Effectively with Open Source Projects (LFC207)",
+    "description": "Learn how to work most effectively with upstream open source projects.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/collaborating-effectively-with-open-source-projects-lfc207/"
+  },
+  {
+    "id": "5a7f1bbb-d3aa-5db0-890e-38cd7a4b4bdc",
+    "title": "Creating Open Source Projects (LFC208)",
+    "description": "Learn how you can successfully create new open source projects.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/creating-open-source-projects-lfc208/"
+  },
+  {
+    "id": "78f20349-1045-51c7-a903-22b5cf71bd64",
+    "title": "XSS Exploits and Defenses (LFEL1010)",
+    "description": "Easily grow your cybersecurity maturity by learning to counter the top security vulnerability, cross-site scripting (XSS)!",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/xss-exploits-and-defenses-lfel1010/"
+  },
+  {
+    "id": "8d181929-9542-53f9-876f-11fcb308364f",
+    "title": "Introduction to the Common Domain Model (CDM) (LFEL1016)",
+    "description": "Enroll today to quickly learn how to use CDM to standardize data for complex financial products, including derivatives, securities and \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/introduction-to-the-common-domain-model-cdm-lfel1016/"
+  },
+  {
+    "id": "0ab50758-52bb-59ab-8de8-eab8b8609808",
+    "title": "Serverless and Event-Driven Applications with Knative (LFS246)",
+    "description": "Master the skills required to build, deploy, and manage serverless applications on Kubernetes using Knative.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/serverless-and-event-driven-applications-with-knative-lfs246/"
+  },
+  {
+    "id": "f65d55d2-bbcf-589f-961e-385fb60b5244",
+    "title": "Getting Started with OpenTelemetry (LFS148)",
+    "description": "Learn to use OpenTelemetry to build and manage unified observability, skills increasingly important to IT developers and engineers career growth.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/getting-started-with-opentelemetry-lfs148/"
+  },
+  {
+    "id": "9975d601-33e0-5728-91d9-826a86a35792",
+    "title": "Hyperledger Fabric: Design, Develop and Deploy (LFS270)",
+    "description": "Set your career up for long-term success with a foundation in Hyperledger Fabric, the fast growing, high-demand enterprise blockchain technology.",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/hyperledger-fabric-design-develop-and-deploy-lfs270/"
+  },
+  {
+    "id": "686829b4-f069-53d5-bd04-49e1a5d3de16",
+    "title": "Hyperledger Fabric: Design, Develop, and Deploy (LFS270) + Hyperledger Fabric Certified Practitioner (HFCP) Exam Bundle",
+    "description": "Set your career up for long-term success with a foundation in Hyperledger Fabric, the fast growing, high-demand enterprise blockchain technology.",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$299",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/hyperledger-fabric-design-develop-and-deploy-lfs270-hyperledger-fabric-certified-practitionere-hfcp-exam-bundle/"
+  },
+  {
+    "id": "211b76c7-da8d-5bf2-9b1b-5f225a1dd989",
+    "title": "Getting Started with OpenTofu (LFEL1009)",
+    "description": "Enroll today to quickly start managing Infrastructure as Code (IaC) using OpenTofu to automate, scale and optimize infrastructure provisioning!",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Express Learning",
+    "url": "https://training.linuxfoundation.org/express-learning/getting-started-with-opentofu-lfel1009/"
+  },
+  {
+    "id": "3df3c069-dc5d-5612-8497-1ec69df657e8",
+    "title": "Cloud Cost Monitoring for FinOps with OpenCost (LFS248)",
+    "description": "Discover FinOps and cloud cost management with OpenCost, empowering your decision-making with key metrics.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$299",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/cloud-cost-monitoring-for-finops-with-opencost-lfs248/"
+  },
+  {
+    "id": "58db7ea4-b0d1-5833-9165-f0c89bd10d6e",
+    "title": "Conversational AI: Ensuring Compliance and Mitigating Risks (LFS120)",
+    "description": "Learn to navigate the evolving landscape of conversational AI and gain expertise in risk mitigation, aligning with the latest standards \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/conversational-ai-ensuring-compliance-and-mitigating-risks-lfs120/"
+  },
+  {
+    "id": "19a09899-c3d8-56c0-8464-3067b6d49eac",
+    "title": "IT Specification Basics for New Developers (LFD141)",
+    "description": "Master IT specification writing to improve project success, enhance collaboration, and open new career opportunities.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/it-specification-basics-for-new-developers-lfd141/"
+  },
+  {
+    "id": "6398b7a4-dddf-5d29-9204-fb964f73a5f6",
+    "title": "Open Source RT-Thread RTOS on RISC-V (LFD123)",
+    "description": "Expand your skill set by learning how to port and configure an RTOS for embedded hardware on RISC-V.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "2",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-rt-thread-rtos-on-risc-v-lfd123/"
+  },
+  {
+    "id": "a59d6b33-d4f3-5079-bc3d-feb7e58ad7ef",
+    "title": "Certified Kubernetes Application Developer (CKAD)",
+    "description": "The Certified Kubernetes Application Developer exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$445",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/"
+  },
+  {
+    "id": "230bfb06-904a-5b8c-8fe0-10b6ac9a202e",
+    "title": "Certified Kubernetes Administrator (CKA)",
+    "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$445",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
+  },
+  {
+    "id": "90b8b431-d18b-543c-a567-8eb34c4382f0",
+    "title": "Certified Kubernetes Security Specialist (CKS)",
+    "description": "The Certified Kubernetes Security Specialist (CKS) is an accomplished Kubernetes practitioner (as evidenced by holding the CKA credential) who has \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$445",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/"
+  },
+  {
+    "id": "7b950d6a-a5fb-5479-804b-a39b73343d63",
+    "title": "Kubernetes and Cloud Native Associate (KCNA)",
+    "description": "The Kubernetes and Cloud Native Associate (KCNA) exam demonstrates a user\u2019s foundational knowledge and skills in Kubernetes and the wi\u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"
+  },
+  {
+    "id": "9e113a9c-0198-513c-9b4a-9eea422ae515",
+    "title": "Linux Foundation Certified Cloud Technician (LFCT)",
+    "description": "The Linux Foundation Certified Cloud Technician (LFCT)  exam demonstrates a candidate\u2019s competence of using the command line to configure, ma\u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-cloud-technician/"
+  },
+  {
+    "id": "1aae59c4-b655-581f-8e62-f465864cd383",
+    "title": "Kubernetes and Cloud Native Security Associate (KCSA)",
+    "description": "The Kubernetes and Cloud Native Security Associate (KCSA) exam demonstrates a user\u2019s understanding of the baseline security configuration of Ku\u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/"
+  },
+  {
+    "id": "828e8e95-73e9-534c-96da-56bedf8f4075",
+    "title": "Linux Foundation Certified System Administrator (LFCS)",
+    "description": "The Linux Foundation Certified System Administrator exam is ideal for candidates looking to validate their Linux system administration skill set.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$445",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-sysadmin-lfcs/"
+  },
+  {
+    "id": "0a000bf6-a73a-5208-8fb8-b7085d510236",
+    "title": "Linux Foundation Certified IT Associate (LFCA)",
+    "description": "The Linux Foundation Certified IT Associate (LFCA) exam demonstrates a user\u2019s expertise and skills in fundamental information technology functions, es\u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-it-associate/"
+  },
+  {
+    "id": "11fa4112-a6a5-5e6e-b167-28fcb2f70974",
+    "title": "OpenJS Node.js Application Developer (JSNAD)",
+    "description": "The OpenJS Node.js Application Developer certification is ideal for the Node.js developer with at least two years of \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$395",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/jsnad/"
+  },
+  {
+    "id": "51a66481-2d6f-5309-ba22-84c3fff5e888",
+    "title": "OpenJS Node.js Services Developer (JSNSD)",
+    "description": "The OpenJS Node.js Services Developer certification is for the Node.js developer with at least two years of experience \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$395",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/jsnsd/"
+  },
+  {
+    "id": "942b4ea9-2af2-572d-acac-8660fc90024b",
+    "title": "FinOps Certified Practitioner & FinOps Certified Professional",
+    "description": "A certified FinOps Practitioner will bring a strong understanding of FinOps, its Principles, Capabilities and how to support and manage \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-finops/"
+  },
+  {
+    "id": "dfc5e6b4-3539-5f6b-9ad1-360ef8014eeb",
+    "title": "Certified TARS Application Developer (CTAD)",
+    "description": "The Certfied TARS Application Developer (CTAD) exam demonstrates an understanding of critical concepts in microservices and components/functions of the \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-tars-application-developer/"
+  },
+  {
+    "id": "06ca1ef9-34fd-5bac-b6c6-7000de391598",
+    "title": "RISC-V Foundational Associate (RVFA)",
+    "description": "The RVFA exam demonstrates an individual possesses the fundamental, entry-level knowledge and skills required of RISC-V hardware and software professionals.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-foundation-risc-v-foundational-associate/"
+  },
+  {
+    "id": "a6c27b89-07dc-5389-851a-27dc67d88292",
+    "title": "Prometheus Certified Associate (PCA)",
+    "description": "The Prometheus Certified Associate (PCA) exam demonstrates an engineer\u2019s foundational knowledge of observability and skills  using Prometheus, the open so\u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/prometheus-certified-associate/"
+  },
+  {
+    "id": "94ccdf88-b3cc-5a6b-b6cd-ade367f06e25",
+    "title": "Hyperledger Fabric Certified Practitioner (HFCP)",
+    "description": "The Hyperledger Fabric Certified Practitioner (HFCP) exam allows candidates to demonstrate their understanding of the fundamentals of blockchain technology, the \u2026",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/hyperledger-fabric-certified-practitioner-hfcp/"
+  },
+  {
+    "id": "32e4e79a-f146-524c-8158-52225c5a746e",
+    "title": "Certified GitOps Associate (CGOA)",
+    "description": "The Certified GitOps Associate (CGOA) exam allows candidates to demonstrate their understanding ofGitOps principles, terminology, and best practices in setting \u2026",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-gitops-associate-cgoa/"
+  },
+  {
+    "id": "4356d00c-86f6-548b-a4a2-07237526106e",
+    "title": "FINOS Certified FDC3 Practitioner (FCFP)",
+    "description": "The FINOS Certified FDC3 Practitioner (FCFP) exam demonstrates a user\u2019s understanding of the key design considerations and rationale of th\u2026",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/finos-certified-fdc3-practitioner/"
+  },
+  {
+    "id": "8060096b-f20a-5d08-9412-313adb2a6447",
+    "title": "Istio Certified Associate (ICA)",
+    "description": "The ICA is a pre-professional certification designed for engineers, CI/CD practitioners or anyone with special interests in Istio.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/istio-certified-associate-ica/"
+  },
+  {
+    "id": "7b16b9f4-2daa-56cc-b573-a1f53969738f",
+    "title": "FINOS Financial Services Certified Open Source Developer (FSOSD)",
+    "description": "The FINOS Certified Open Source Developer exam is designed for developers contributing to open source projects while working in financial \u2026",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/finos-open-source-developer-fsosd/"
+  },
+  {
+    "id": "3fa17ffb-7cf7-5cf7-95ec-7cd41354770e",
+    "title": "Certified Argo Project Associate (CAPA)",
+    "description": "The Certified Argo Project Associate (CAPA) exam demonstrates a user\u2019s ability to navigate the Argo Project ecosystem including when an\u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-argo-project-associate-capa/"
+  },
+  {
+    "id": "295e8343-2d21-54a5-892b-d19c9d619fec",
+    "title": "Cilium Certified Associate (CCA)",
+    "description": "The Cilium Certified Associate (CCA) exam confirms a user\u2019s knowledge of connecting, securing, and observing Kubernetes clusters using Cilium.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/cilium-certified-associate-cca/"
+  },
+  {
+    "id": "ea52ee69-f4bd-54d3-8f09-e413f686f5c2",
+    "title": "Besu Certified Professional (BCP)",
+    "description": "Demand for IT pros with decentralized tech skills is soaring. Showcase your expertise and open new doors with the BCP.",
+    "category": "Blockchain",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/besu-certified-professional/"
+  },
+  {
+    "id": "71232641-a506-567a-b7e2-4db4c60c17a7",
+    "title": "Certified Backstage Associate (CBA)",
+    "description": "The Certified Backstage Associate (CBA) exam is for developers looking to enhance their skills in building developer portals with Backstage.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-backstage-associate-cba/"
+  },
+  {
+    "id": "1d6776c8-3c13-5a8a-b0a7-2bd0d410b435",
+    "title": "Kyverno Certified Associate (KCA)",
+    "description": "Kyverno expertise shows you understand the advanced aspects of cloud management and security, one of today's most in-demand skill sets.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kyverno-certified-associate-kca/"
+  },
+  {
+    "id": "a05e76db-84f7-5f76-903c-b612ebe1e3dc",
+    "title": "OpenTelemetry Certified Associate (OTCA)",
+    "description": "OpenTelemetry Certified Associate (OTCA) exam is coming soon",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/opentelemetry-certified-associate-otca/"
+  },
+  {
+    "id": "c407665e-ff45-55c1-b577-222f7cd1433b",
+    "title": "Certified Open Source Developer for Enterprise (CODE)",
+    "description": "A Certified Open Source Developer for Enterprise (CODE) can demonstrate their ability to perform their developer work collaboratively, transparently and \u2026",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-open-source-developer-for-enterprise-code/"
+  },
+  {
+    "id": "4dc84b1d-19f4-5d1a-8e81-2cc5085a3f21",
+    "title": "Certified Cloud Native Platform Engineering Associate (CNPA)",
+    "description": "Show you can build tools and automation that empower developers\u2014and grow your career with the CNPA certification.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$250",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-cloud-native-platform-engineering-associate-cnpa/"
+  },
+  {
+    "id": "3a27ff33-872b-5c93-bf73-90bca594ed82",
+    "title": "Kubernetes for App Developers (LFD459)",
+    "description": "Learn how to containerize, host, deploy, and configure an application in a multi-node cluster.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-for-app-developers/"
+  },
+  {
+    "id": "300fd3ca-3845-5c7f-89ee-a5096069eeb2",
+    "title": "Kubernetes Administration (LFS458)",
+    "description": "Learn the core concepts typically used to build and administer a Kubernetes cluster in production using vendor-independent tools.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-administration/"
+  },
+  {
+    "id": "3d197307-9350-58f3-a13d-e99ed40f6dda",
+    "title": "Kubernetes Security Fundamentals (LFS460)",
+    "description": "This course is designed as preparation for the Certified Kubernetes Security Specialist Exam.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-security-fundamentals-lfs460/"
+  },
+  {
+    "id": "a56d3792-6efc-5822-8d7f-e7ed254b92d8",
+    "title": "Cloud Engineer IT Professional Program",
+    "description": "This program will prepare an absolute beginner to learn the most in-demand cloud computing skills in about 6 months.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$1300",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/cloud-engineer-itprofessionalprogram/"
+  },
+  {
+    "id": "df5a97ac-4a4b-5c57-b96b-a6166f34e2dc",
+    "title": "Developing Applications for Linux (LFD401)",
+    "description": "Learn how to develop applications for the Linux environment.",
+    "category": "Linux Kernel Development",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/developing-applications-for-linux/"
+  },
+  {
+    "id": "64513ebb-f17f-5045-8e2e-f558507b8b78",
+    "title": "Linux Kernel Internals and Development (LFD420)",
+    "description": "Learn how to develop for the Linux operating system.",
+    "category": "Linux Kernel Development",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-kernel-internals-and-development/"
+  },
+  {
+    "id": "e9a5d1c9-b335-5be5-be2f-79fa90d88009",
+    "title": "Developing Linux Device Drivers (LFD430)",
+    "description": "Learn how to develop device drivers for Linux systems.",
+    "category": "Linux Kernel Development",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/developing-linux-device-drivers/"
+  },
+  {
+    "id": "287e3e6e-9455-54bc-b884-c54f0498b386",
+    "title": "Developing Embedded Linux Device Drivers (LFD435)",
+    "description": "Learn how to develop device drivers for embedded Linux systems.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/developing-embedded-linux-device-drivers/"
+  },
+  {
+    "id": "5aac2171-f7d7-5492-afc8-093f1e2a2130",
+    "title": "Embedded Linux Development (LFD450)",
+    "description": "This course will give you the step-by-step framework for developing an embedded Linux product.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/embedded-linux-development/"
+  },
+  {
+    "id": "aab677e7-0843-56dc-bd83-a1b5a7a1b2b3",
+    "title": "Embedded Linux Platform Development with Yocto Project (LFD460)",
+    "description": "Learn how to build a repeatable embedded target Linux target using the Yocto Project.",
+    "category": "IoT & Embedded Development",
+    "difficulty": "3",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/embedded-linux-development-with-yocto-project/"
+  },
+  {
+    "id": "7eeed5bd-6d50-5f06-9f96-131d3687048a",
+    "title": "Introduction to Linux, Open Source Development, and GIT (LFD301)",
+    "description": "Linux is exploding, and the demand for Linux developers has never been stronger.",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-linux-open-source-development-and-git/"
+  },
+  {
+    "id": "656fc5a5-1b78-561d-9c37-fabcae7d4ec5",
+    "title": "Linux System Administration (LFS307)",
+    "description": "This course will teach you the skills you need to become a professional Linux systems administrator.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-system-administration-lfs307/"
+  },
+  {
+    "id": "8087c2c5-e74f-5531-b356-387caee0c064",
+    "title": "Linux for Cloud Technicians (LFS303)",
+    "description": "This course will teach you the skills you need to become a professional Linux cloud technician.",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-for-cloud-technicians-lfs303/"
+  },
+  {
+    "id": "76023240-4f2f-5a5f-bdad-a6751c13600c",
+    "title": "Security and the Linux Kernel (LFD441)",
+    "description": "Learn about the Linux kernel security model and how to secure the operations system..",
+    "category": "Cybersecurity",
+    "difficulty": "3",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/security-and-linux-kernel-lfd441/"
+  },
+  {
+    "id": "7f3d9e60-4fe3-5ade-96ac-2c05ab317b98",
+    "title": "Advanced Cloud Engineer IT Professional Program",
+    "description": "Take your career to the next level. Go from IT administrator to certified cloud pro in as little as six \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "3",
+    "price": "$1250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/advanced-cloud-engineer-it-professional-program/"
+  },
+  {
+    "id": "a8efa750-7c57-5280-83b8-d175a1633210",
+    "title": "Linux System Administration (LFS307-DE)",
+    "description": "This course will teach you the skills you need to become a professional Linux systems administrator.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-system-administration-lfs307-de/"
+  },
+  {
+    "id": "13d0a9cd-57d0-5d9c-bb60-c4b802342596",
+    "title": "Linux Kernel Debugging (LFD445)",
+    "description": "Deliver improved productivity in Linux kernel development environments by diagnosing and fixing kernel issues more efficiently.",
+    "category": "Linux Kernel Development",
+    "difficulty": "3",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-kernel-debugging-lfd445/"
+  },
+  {
+    "id": "bc2763e7-bbce-54de-9361-a895c5c39764",
+    "title": "Linux Enterprise Automation (LFS430)",
+    "description": "Learn how to use automation to minimize cost, ensure compliance, and accelerate deployments.",
+    "category": "",
+    "difficulty": "0",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-enterprise-automation/"
+  },
+  {
+    "id": "133c5035-68e1-579f-9dbe-de86a07ebd64",
+    "title": "Text Editing with Vim (SC100)",
+    "description": "The Text Editing with Vim SkillCred demonstrates a user\u2019s foundational knowledge and skills in Vim text editor.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/skillcred-vim/"
+  },
+  {
+    "id": "c60a603e-c976-5764-a8ba-8240728ef2c3",
+    "title": "Open Data Formats: YAML (SC101)",
+    "description": "Open Data Formats: YAML demonstrates a user\u2019s foundational knowledge and skills in YAML.",
+    "category": "Networking",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/yaml/"
+  },
+  {
+    "id": "196a736e-9e69-52d8-955e-9f70abb92622",
+    "title": "Source Control Management with Git (SC102)",
+    "description": "The Git SkillCred demonstrates a user\u2019s foundational knowledge and skills in Git.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/git/"
+  },
+  {
+    "id": "1edb3126-b71f-5cfd-ae56-78e7c96f1347",
+    "title": "Shell Scripting Using Bash (SC103)",
+    "description": "The Bash SkillCred demonstrates a user\u2019s foundational knowledge and skills in Bash.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/bash/"
+  },
+  {
+    "id": "6137f9f5-5b8f-5726-85a1-6ea96a52a24c",
+    "title": "Developing Helm Charts (SC104)",
+    "description": "Developing Helm Charts demonstrates a user\u2019s foundational knowledge and skills in Helm.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/helm/"
+  },
+  {
+    "id": "d818f900-ea45-5876-a016-3f8208ba8e71",
+    "title": "PyTorch in Practice: An Applications-First Approach (LFD473)",
+    "description": "Start prototyping AI applications powered by PyTorch, one of the most popular deep learning frameworks, by leveraging popular pretrained models \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/pytorch-in-practice-an-applications-first-approach-lfd473/"
+  },
+  {
+    "id": "790d772f-38b7-51a4-b5ef-3fda2c2a58f0",
+    "title": "Open Data Formats: JSON (SC105)",
+    "description": "Open Data Formats: JSON demonstrates a user\u2019s foundational knowledge and skills with the JSON data format.",
+    "category": "Web & Application Development",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/open-data-formats-json-sc105/"
+  },
+  {
+    "id": "924426a7-833e-5eaf-98eb-8f4cf2b403df",
+    "title": "Cloud Native Developer IT Professional Program",
+    "description": "This program will provide you with the knowledge and skills to develop cloud native applications that can run on any \u2026",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$1000",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/cloud-native-developer-it-professional-program/"
+  },
+  {
+    "id": "c3449479-dc47-5390-953c-563b98968304",
+    "title": "DevOps IT Professional Program",
+    "description": "This program will provide you with the knowledge and skills to utilize DevOps principles and practices - including DevSecOps and \u2026",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$750",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/devops-it-professional-program/"
+  },
+  {
+    "id": "14563ac2-45e7-59a6-8aae-01041650dc66",
+    "title": "Programming in Rust (LFD480)",
+    "description": "Learn idiomatic Rust and improve your developer productivity.",
+    "category": "Web & Application Development",
+    "difficulty": "3",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/programming-in-rust-lfd480/"
+  },
+  {
+    "id": "1b68b11d-7c97-5ee3-b797-38f796a1116c",
+    "title": "Pipelines with Tekton (SC106)",
+    "description": "This credential demonstrates a user\u2019s foundational knowledge and skills of Tekton pipelines.",
+    "category": "DevOps & Site Reliability",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/pipelines-with-tekton-sc106/"
+  },
+  {
+    "id": "7d79a046-6f14-5db7-b2cb-4980d50d18ae",
+    "title": "Zero Trust Security with SPIFFE and SPIRE (LFS482)",
+    "description": "Learn to solve Zero Trust architectural challenges by leveraging SPIFFE and SPIRE.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/zero-trust-security-with-spiffe-and-spire-lfs482/"
+  },
+  {
+    "id": "bafdded2-79ab-5f27-8b49-deef4ca535fc",
+    "title": "Pattern Matching with Regular Expressions (SC107)",
+    "description": "This credential demonstrates a user\u2019s foundational knowledge and skills of Regex.",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$79",
+    "product_type": "SkillCred",
+    "url": "https://training.linuxfoundation.org/skillcred/pattern-matching-with-regular-expressions-sc107/"
+  },
+  {
+    "id": "9c61803c-5633-526f-84c1-ee130100fc77",
+    "title": "Securing Coding Fundamentals (WSKF601)",
+    "description": "This hands-on instructor-led course empowers developers to write and verify secure software independently.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$3250",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/securing-coding-fundamentals-wskf601/"
+  },
+  {
+    "id": "027fa9d0-9025-56ac-b296-711d70869884",
+    "title": "Understanding Vulnerabilities and Security Threats (WSKF603)",
+    "description": "Build better software and strengthen your IT career opportunities by hardening your security mindset with this instructor-led course.",
+    "category": "Cybersecurity",
+    "difficulty": "2",
+    "price": "$995",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/understanding-vulnerabilities-and-security-threats-wskf603/"
+  },
+  {
+    "id": "04a7b19a-0148-5a00-bff6-c92fe29aa3c4",
+    "title": "Generative AI Prompt Engineering (RXM401)",
+    "description": "This one-day, live instructor-led, hands-on course, is designed for anyone interested in using GenAI and will help participants elicit high-quality, \u2026",
+    "category": "AI & ML",
+    "difficulty": "1",
+    "price": "$695",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/gen-ai-prompt-engineering-rxm401/"
+  },
+  {
+    "id": "09ec0949-59f6-555a-9bf1-c8861ba22172",
+    "title": "Machine Learning & AI Introduction (RXM402)",
+    "description": "This one-day, live instructor-led, hands-on course will help you harness the power of data with modern machine learning tools and \u2026",
+    "category": "AI & ML",
+    "difficulty": "2",
+    "price": "$695",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/machine-learning-ai-intro-rxm402/"
+  },
+  {
+    "id": "c67a9392-4d1f-5c64-b72c-2a383a808bd2",
+    "title": "Retrieval Augmented Generation (RAG) Introduction (RXM403)",
+    "description": "Learn about Large Language Models (LLM) and how RAGs combine generative and retrieval-based AI models to extend the already powerful \u2026",
+    "category": "AI & ML",
+    "difficulty": "2",
+    "price": "$695",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/retrieval-augmented-generation-rag-intro-rxm403/"
+  },
+  {
+    "id": "cacfdfde-5d87-5849-bc21-15481765a8a7",
+    "title": "WebAssembly in Action: Develop, Deploy, and Debug (LFD334)",
+    "description": "Learn to leverage WebAssembly\u2019s performance and language-agnostic advantages to push application performance by porting your preferred language projects to th\u2026",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$1995",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/webassembly-in-action-develop-deploy-and-debug-lfd334/"
+  },
+  {
+    "id": "c301efed-3f7f-5756-8442-2f2c708875d0",
+    "title": "Kubernetes Troubleshooting (LFWS313)",
+    "description": "Grow your cloud native career with Kubernetes troubleshooting skills learned with hands-on labs and real-world scenarios.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$995",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-troubleshooting-lfws313/"
+  },
+  {
+    "id": "a5a923ee-068e-56a7-8f5a-a9f80474ba34",
+    "title": "Kubernetes \u57fa\u790e (LFS258-JP)",
+    "description": "Get a strong operation knowledge of Kubernetes.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$330",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals-lfs258-jp/"
+  },
+  {
+    "id": "8e08b3ec-f08d-579b-a6d0-aafb094770c8",
+    "title": "Kubernetes Fundamentals (LFS258-JP) + CKA-JP Exam Bundle",
+    "description": "Note course content is in Japanese. This course will give you a strong operating knowledge of Kubernetes, including how to \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$710",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-fundamentals-lfs258-jp-cka-jp/"
+  },
+  {
+    "id": "b9dad49a-a991-5084-bc7a-20dd3109bd85",
+    "title": "Kubernetes \u30a2\u30d7\u30ea\u958b\u767a (LFD259-JP)+ CKAD-JP",
+    "description": "The Certified Kubernetes Application Developer (CKAD-JP) exam certifies that users can design, build, configure, and expose cloud native applications for \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$710",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-for-developers-lfd259-jp-ckad-jp/"
+  },
+  {
+    "id": "8ff68fca-d2d9-5bba-914f-f965f8d88982",
+    "title": "Kuberbetes\u3068\u30af\u30e9\u30a6\u30c9\u30cd\u30a4\u30c6\u30a3\u30d6\u57fa\u790e (LFS250-JP)",
+    "description": "This Kubernetes and Cloud Native Essentials course provides an overview of cloud native technologies and how container orchestration systems can \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$108",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-and-cloud-native-essentials-lfs250-jp/"
+  },
+  {
+    "id": "9a8a25fd-ae6d-5fc8-8293-dae9209ead90",
+    "title": "Kubernetes \u30a2\u30d7\u30ea\u958b\u767a (LFD259-JP)",
+    "description": "Learn how to containerize, host, deploy, and configure an application in a multi-node cluster.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$330",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/kubernetes-for-developers-lfd259-jp/"
+  },
+  {
+    "id": "0c022f8d-8a8c-5b72-96eb-f92f41e70075",
+    "title": "Kubernetes\u5165\u9580 (LFS158-JP)",
+    "description": "Get an in-depth primer on this powerful system for managing containerized applications in a clustered environment.",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-kubernetes-lfs158-jp/"
+  },
+  {
+    "id": "81b657eb-9340-5978-948f-80e61e1ca6b3",
+    "title": "\u30bb\u30ad\u30e5\u30a2 \u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a (LFD121-JP)",
+    "description": "Learn the security basics to develop software that is hardened against attacks, and understand how you can reduce the damage \u2026",
+    "category": "Cybersecurity",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/developing-secure-software-lfd121-jp/"
+  },
+  {
+    "id": "4fbfc8fe-088b-53eb-95ac-0e67142ddc76",
+    "title": "Linux \u30b7\u30b9\u30c6\u30e0\u7ba1\u7406\u57fa\u790e (LFS207-JP)",
+    "description": "Get the background and training you need to start working as a Linux SysAdmin.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$330",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-system-administration-essentials-lfs207-jp/"
+  },
+  {
+    "id": "7ee66877-86d0-578a-abf3-df0f963e9a41",
+    "title": "Linux\u5165\u9580 (LFS101-JP)",
+    "description": "Develop a good working knowledge of Linux.",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/introduction-to-linux-lfs101-jp/"
+  },
+  {
+    "id": "4f2d4107-be33-57c0-a439-6e8cc775336f",
+    "title": "Linux\u30b7\u30b9\u30c6\u30e0\u7ba1\u7406\u57fa\u790e  (LFS207-JP) + LFCS-JP \u8a66\u9a13\u30d0\u30f3\u30c9\u30eb",
+    "description": "The Linux Foundation Certified System Administrator exam is ideal for candidates looking to validate their Linux system administration skill set.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$710",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-system-administration-essentials-lfs207-jp-lfcs-jp/"
+  },
+  {
+    "id": "23b2c1df-fb35-5c9e-abf6-656415d490dd",
+    "title": "\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u7ba1\u7406\u3068\u6226\u7565",
+    "description": "Learn to build effective processes and strategies for creating new open source projects from scratch, or from open sourcing previously \u2026",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$540",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/open-source-management-strategy-jp/"
+  },
+  {
+    "id": "bf95687d-63ad-50bd-a178-73da49ae1903",
+    "title": "\u30b0\u30ea\u30fc\u30f3\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2 \u5b9f\u8df5 (LFC131-JP)",
+    "description": "Learn the basic concepts a software practitioner needs to know to build, maintain and run greener applications.",
+    "category": "Open Source Best Practice",
+    "difficulty": "1",
+    "price": "$0",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131-jp/"
+  },
+  {
+    "id": "05679536-95bb-5e14-af82-ba5b47034c72",
+    "title": "\u8a8d\u5b9aKubernetes\u7ba1\u7406\u8005 (CKA-JP)",
+    "description": "The Certified Kubernetes Administrator (CKA) program provides assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$490",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka-jp/"
+  },
+  {
+    "id": "7614d9ae-ee08-597b-bb48-e4463d1d3e3a",
+    "title": "\u8a8d\u5b9aKubernetes\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u958b\u767a\u8005 (CKAD-JP)",
+    "description": "The Certified Kubernetes Application Developer exam certifies that users can design, build, configure, and expose cloud native applications for Kubernetes.",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$490",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad-jp/"
+  },
+  {
+    "id": "5a0cbdaa-ea6f-5e69-8968-18075b4c071e",
+    "title": "\u8a8d\u5b9aKubernetes\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8 (CKS-JP)",
+    "description": "The Certified Kubernetes Security Specialist (CKS) is an accomplished Kubernetes practitioner (as evidenced by holding the CKA credential) who has \u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "2",
+    "price": "$490",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist-cks-jp/"
+  },
+  {
+    "id": "6343eaf6-4c20-551b-8908-ce5e8cfe0976",
+    "title": "Linux Foundation\u8a8d\u5b9a\u30b7\u30b9\u30c6\u30e0\u7ba1\u7406\u8005 (LFCS-JP)",
+    "description": "The Linux Foundation Certified System Administrator exam is ideal for candidates looking to validate their Linux system administration skill set.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$490",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-system-administrator-lfcs-jp/"
+  },
+  {
+    "id": "74d7c34c-ad02-593f-9d2d-7c61a2115800",
+    "title": "Linux Foundation \u8a8d\u5b9a IT \u30a2\u30bd\u30b7\u30a8\u30a4\u30c8 (LFCA-JP)",
+    "description": "The Linux Foundation Certified IT Associate (LFCA-JP) exam demonstrates a user\u2019s expertise and skills in fundamental information technology functions, es\u2026",
+    "category": "System Administration",
+    "difficulty": "1",
+    "price": "$275",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/linux-foundation-certified-it-associate-lfca-jp/"
+  },
+  {
+    "id": "12bd16d8-90f6-58f7-aaaa-57b5802b106f",
+    "title": "\u8a8d\u5b9aKubernetes\u30af\u30e9\u30a6\u30c9\u30cd\u30a4\u30c6\u30a3\u30d6\u30a2\u30bd\u30b7\u30a8\u30a4\u30c8 (KCNA-JP)",
+    "description": "The Kubernetes and Cloud Native Associate (KCNA) exam demonstrates a user\u2019s foundational knowledge and skills in Kubernetes and the wi\u2026",
+    "category": "Cloud & Containers",
+    "difficulty": "1",
+    "price": "$275",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-associate-kcna-jp/"
+  },
+  {
+    "id": "ebae7a1c-73de-50d4-a2b9-8f0177701b4a",
+    "title": "Yocto Project\u00ae Super Practical Online Course (LFD461-JP)",
+    "description": "\u3053\u306e\u8b1b\u5ea7\u3067\u306f\u3001\u7279\u5b9a\u306e\u30cf\u30fc\u30c9\u30a6\u30a7\u30a2\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u306b\u95a2\u4fc2\u306a\u304f\u3001\u7d44\u307f\u8fbc\u307f\u88fd\u54c1\u7528\u306e\u30ab\u30b9\u30bf\u30e0Linux\u30d9\u30fc\u30b9\u306e\u30b7\u30b9\u30c6\u30e0\u3092\u4f5c\u6210\u304a\u3088\u3073\u4fdd\u5b88\u3059\u308b\u306e\u306b\u5f79\u7acb\u3064\u30c6\u30f3\u30d7\u30ec\u30fc\u30c8\u3001\u30c4\u30fc\u30eb\u3001\u304a\u3088\u3073\u30e1\u30bd\u30c3\u30c9\u3092\u63d0\u4f9b\u3059\u308b\u30aa\u30fc\u30d7\u30f3\u30bd\u30fc\u30b9\u30b3\u30e9\u30dc\u30ec\u30fc\u30b7\u30e7\u30f3\u306e\u53d6\u308a\u7d44\u307f\u3067\u3042\u308bYoctoProject\u306e\u57fa\u672c\u7684\u306a\u64cd\u4f5c\u3092\u7fd2\u5f97\u3067\u304d\u307e\u3059\u3002",
+    "category": "IoT & Embedded Development",
+    "difficulty": "0",
+    "price": "$2750",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/yocto-practical-class-lfd461-jp/"
+  },
+  {
+    "id": "15677c5f-1af9-5aa4-a580-8d9506f2156d",
+    "title": "Linux \u30b7\u30b9\u30c6\u30e0\u7ba1\u7406 (LFWS307-JP)",
+    "description": "This course will teach you the skills you need to become a professional Linux systems administrator.",
+    "category": "System Administration",
+    "difficulty": "2",
+    "price": "$2200",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/linux-system-administration-lfws-307-jp/"
+  },
+  {
+    "id": "12e7541b-3b78-5b66-be19-344e45d7e0c2",
+    "title": "RISC-V \u6838\u5fc3\u80fd\u529b\u8ba4\u8bc1\u8bfe\u7a0b (LFD210-CN)",
+    "description": "Learn everything you need to know about RISC-V, the open-source instruction set architecture that is predicted to become ubiquitous as \u2026",
+    "category": "IoT & Embedded Development",
+    "difficulty": "1",
+    "price": "$99",
+    "product_type": "Training",
+    "url": "https://training.linuxfoundation.org/training/risc-v-fundamentals-lfd210-cn/"
+  },
+  {
+    "id": "470e651b-bf66-56ec-878f-871990f96b4c",
+    "title": "OpenJS Node.js Services Developer (Chinese Version) (JSNSD-CN)",
+    "description": "The OpenJS Node.js Services Developer certification is for the Node.js developer with at least two years of experience \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$395",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/certification-openjs-node-js-jsnsd-cn/"
+  },
+  {
+    "id": "3889f9c1-302d-5fc1-8ee6-8f91f7d0b4d2",
+    "title": "OpenJS Node.js Application Developer (Chinese Version) (JSNAD-CN)",
+    "description": "The OpenJS Node.js Application Developer certification is ideal for the Node.js developer with at least two years of \u2026",
+    "category": "Web & Application Development",
+    "difficulty": "2",
+    "price": "$395",
+    "product_type": "Certification",
+    "url": "https://training.linuxfoundation.org/certification/openjs-node-js-jsnad-cn/"
+  }
+]

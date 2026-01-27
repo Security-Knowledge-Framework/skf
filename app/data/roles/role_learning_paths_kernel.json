@@ -1,0 +1,66 @@
+{
+    "junior": {
+      "job_path_title": "Mastering Linux Kernel Development",
+      "job_path_description": "This track is designed for developers aiming to specialize in Linux kernel development, covering kernel internals, device drivers, security, debugging, and embedded systems to prepare for a Linux Kernel Developer role.",
+      "title": "Linux Kernel Developer",
+      "salary": "$89,000",
+      "range": [
+        "$67,000",
+        "$89,000",
+        "$118,000"
+      ],
+      "courses": [
+        {
+          "id": "350014ef-66b3-5adb-88fd-d722a5ecfa62"
+        },
+        {
+          "id": "64513ebb-f17f-5045-8e2e-f558507b8b78"
+        },
+        {
+          "id": "e9a5d1c9-b335-5be5-be2f-79fa90d88009"
+        }
+      ]
+    },
+    "medior": {
+      "job_path_title": "Advancing in Linux Kernel Development",
+      "job_path_description": "This track is designed for those who already have Linux experience and want to dive deeper into system operations and become a Linux Kernel Engineer.",
+      "title": "Linux Kernel Engineer",
+      "salary": "$102,000",
+      "range": [
+        "$85,000",
+        "$102,000",
+        "$125,000"
+      ],
+      "courses": [
+        {
+          "id": "287e3e6e-9455-54bc-b884-c54f0498b386"
+        },
+        {
+          "id": "76023240-4f2f-5a5f-bdad-a6751c13600c"
+        },
+        {
+          "id": "13d0a9cd-57d0-5d9c-bb60-c4b802342596"
+        }
+      ]
+    },
+    "senior": {
+      "job_path_title": "Embedded Linux Development",
+      "job_path_description": "This track is designed for those who already have Linux experience and want to dive deeper into system operations and become a Linux Kernel Engineer.",
+      "title": "Embedded Linux Development Engineer",
+      "salary": "$130,000",
+      "range": [
+        "$95,000",
+        "$130,000",
+        "$145,000"
+      ],
+      "courses": [
+        {
+          "id": "5aac2171-f7d7-5492-afc8-093f1e2a2130"
+        },
+        {
+          "id": "aab677e7-0843-56dc-bd83-a1b5a7a1b2b3"
+        }
+      ]
+    }
+  }
+  
