@@ -1,0 +1,18 @@
+{
+    "id": "LFS180",
+    "title": "Introduction to DevSecOps for Managers (LFS180)",
+    "overview": "This course provides a practical introduction to DevSecOps for managers and decision-makers. Participants will gain insight into integrating security throughout the software development lifecycle, understand how DevSecOps enhances software delivery, and learn the cultural, process, and tooling changes required to implement it effectively.",
+    "requirements": [
+      "Basic understanding of software development or IT operations",
+      "Familiarity with DevOps concepts is helpful but not required"
+    ],
+    "audience": "This course is designed for managers, team leads, decision-makers, and stakeholders involved in software development or IT who want to understand how to integrate security into DevOps processes.",
+    "details": {
+      "certificate": "Digital Badge and Certificate of Completion",
+      "duration": "10 Hours",
+      "level": "Beginner",
+      "pricing": "Free",
+      "enroll_url": "https://training.linuxfoundation.org/training/introduction-to-devsecops-for-managers-lfs180/"
+    }
+  }
+  

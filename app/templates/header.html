@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Security Knowledge Framework</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Security Knowledge Framework (SKF) is a application that will help you learn and educate IT skills like Linux, Cyber Security, Kubernetes and many more. Free courses and training and also paid materials available.">
+    <meta name="author" content="Glenn ten Cate">
+    
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ url_for('static', filename='assets/css/ruang-admin.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/css/app.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/css/styles.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ url_for('static', filename='assets/css/all.min.css') }}" rel="stylesheet" type="text/css">
+  <script src="{{ url_for('static', filename='assets/js/jquery/jquery-3.7.0.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/popper.min.js') }}"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrap wide">
+      <div class="inner d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='assets/img/logo/logo.svg') }}" alt="Logo" width="50">
+          </div>
+          <div class="name pl-3">
+            <strong>Security Knowledge Framework</strong>
+          </div>
+        </div>
+
+        <!-- Navigation Menu -->
+
+        <!-- Navigation Menu -->
+	<nav class="navbar navbar-expand-lg">
+	  <ul class="navbar-nav d-flex flex-row gap-3">
+	    <li class="nav-item" id="menu-courses">
+	       <a class="nav-link" href="/">
+	         <i class="fas fa-book"></i>
+	         <span class="d-none d-lg-inline"> Courses</span>
+	       </a>
+	     </li>
+	     <li class="nav-item" id="menu-labs">
+	       <a class="nav-link" href="/labs">
+	         <i class="fas fa-lock"></i>
+	         <span class="d-none d-lg-inline"> Free Labs</span>
+	       </a>
+	     </li>
+	     <li class="nav-item" id="menu-requirements">
+	       <a class="nav-link" href="/requirements">
+	         <i class="fas fa-user-shield"></i>
+	         <span class="d-none d-lg-inline"> Requirements</span>
+	       </a>
+	     </li>
+	   </ul>
+	 </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navbar-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-item {
+      list-style: none;
+    }
+
+    .nav-item.active .nav-link {
+      color: #515594;
+      font-weight: bold;
+      border-bottom: 2px solid #515594;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 10px 15px;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #515594;
+    }
+  </style>
+
+  <!-- Auto-activate nav item based on current URL -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const path = window.location.pathname.toLowerCase();
+
+      if (path === '/' || path === '/index' || path === '/index.html') {
+        document.getElementById('menu-courses')?.classList.add('active');
+      } else if (path.includes('/labs')) {
+        document.getElementById('menu-labs')?.classList.add('active');
+      } else if (path.includes('/requirements') || path.includes('/checklist')) {
+        document.getElementById('menu-requirements')?.classList.add('active');
+      }
+    });
+  </script>
+

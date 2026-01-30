@@ -1,0 +1,19 @@
+{
+    "id": "LFD121",
+    "title": "Developing Secure Software (LFD121)",
+    "overview": "This course helps developers understand the basic principles of developing secure software. It covers secure development lifecycle (SDLC) practices, threat modeling, risk management, cryptographic principles, secure coding, and security testing. By the end of the course, developers will be equipped to build software that is resilient to security vulnerabilities.",
+    "requirements": [
+      "Familiarity with general software development",
+      "Basic understanding of software architecture",
+      "Knowledge of one or more programming languages"
+    ],
+    "audience": "Ideal for software developers, engineers, architects, and anyone involved in the software development lifecycle looking to improve security skills.",
+    "details": {
+      "certificate": "Digital Badge and Certificate of Completion",
+      "duration": "14-18 Hours",
+      "level": "Beginner to Intermediate",
+      "pricing": "Free",
+      "enroll_url": "https://training.linuxfoundation.org/training/developing-secure-software-lfd121/"
+    }
+  }
+  

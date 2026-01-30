@@ -1,0 +1,19 @@
+{
+    "id": "LFS262",
+    "title": "Implementing DevSecOps (LFS262)",
+    "overview": "This course teaches you how to integrate security into modern DevOps practices. It covers DevSecOps principles, automation of security in CI/CD pipelines, secure infrastructure as code, vulnerability scanning, and compliance monitoring. The course uses real-world tools and practical exercises to help you implement security across your software development lifecycle.",
+    "requirements": [
+      "Familiarity with DevOps workflows and CI/CD",
+      "Basic understanding of containers and Kubernetes",
+      "Experience with scripting and infrastructure as code tools"
+    ],
+    "audience": "Ideal for DevOps engineers, security engineers, SREs, and developers interested in embedding security practices within DevOps pipelines and infrastructure.",
+    "details": {
+      "certificate": "Digital Badge and Certificate of Completion",
+      "duration": "15-20 Hours",
+      "level": "Advanced",
+      "pricing": "Paid",
+      "enroll_url": "https://training.linuxfoundation.org/training/implementing-devsecops-lfs262/"
+    }
+  }
+  

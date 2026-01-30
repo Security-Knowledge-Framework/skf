@@ -1,0 +1,1281 @@
+{% include 'header.html' %}
+<script src="https://aosfn9c80h.execute-api.us-west-2.amazonaws.com/prod1/webcomponent.js" type="module"></script>
+<div class="container" id="container-wrapper">
+  <div class="d-sm-flex align-items-center justify-content-between m-4">
+	  <br><br><br>
+    <h1 class="course-title">Available Labs</h1>
+  </div>
+
+  <!-- Navigation Tabs (Difficulty Filter Dropdown) -->
+  <div class="nav-tab d-flex justify-content-between align-items-center bg-light p-3 rounded">
+    <!-- LEFT: Lab Count Overview -->
+    <div class="d-flex align-items-center">
+      <div class="text-dark font-weight-bold" id="courseCount">
+        Showing <span id="visibleCount">0</span> of <span id="totalCount">0</span> Labs
+      </div>
+    </div>
+
+    <!-- RIGHT: Sorting Dropdown -->
+    <div class="d-flex">
+      <div class="dropdown">
+        <button class="btn sort-btn dropdown-toggle px-3 py-2 rounded" type="button" id="sortDropdown"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Difficulty: All
+        </button>
+        <div class="dropdown-menu" aria-labelledby="sortDropdown">
+          <a class="dropdown-item text-dark" href="#" onclick="filterByDifficulty('all', 'All')">All</a>
+          <a class="dropdown-item text-dark" href="#" onclick="filterByDifficulty('easy', 'Easy')">Easy</a>
+          <a class="dropdown-item text-dark" href="#" onclick="filterByDifficulty('medium', 'Medium')">Medium</a>
+          <a class="dropdown-item text-dark" href="#" onclick="filterByDifficulty('hard', 'Hard')">Hard</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 labs-overview-page">
+
+    <!-- Table Header -->
+    <div class="bg-light rounded shadow-sm p-3 mb-3">
+      <div class="row fw-bold text-secondary">
+        <div class="col-md-4">Lab Name</div>
+        <div class="col-md-2">Difficulty</div>
+        <div class="col-md-2">Write-up</div>
+        <div class="col-md-2">Start</div>
+      </div>
+    </div>
+
+    <!-- Example Lab 1 -->
+
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Auth Bypass 1</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/auth-bypass-1/auth-bypass-1" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="auth-bypass-1" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Auth Bypass 2</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/auth-bypass-2/auth-bypass-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="auth-bypass-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Auth Bypass 3</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/auth-bypass-3/auth-bypass-3" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="auth-bypass-3" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Auth Bypass Simple</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/auth-bypass-simple/auth-bypass-simple" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="auth-bypass-simple" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Client Side Restriction Bypass</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/client-side-restriction-bypass/client-side-restriction-bypass" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="client-side-restriction-bypass" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Client Side Restriction Bypass 2</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/client-side-restriction-bypass-harder/client-side-restriction-bypass-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="client-side-restriction-bypass-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Client Side Template Injection</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/client-side-template-injection-csti/client-side-template-injection" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="client-side-template-injection" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">CMD Injection 1</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/command-injection-cmd/cmd-injection-1" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="cmd-injection-1" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">CMD Injection 2</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/command-injection-2-cmd-2/cmd-injection-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="cmd-injection-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Command Injection 3</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/command-injection-3-cmd-3/command-injection3" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="command-injection3" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Python Command Injection 4</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/command-injection-4-cmd-4/python-command-injection-4-cmd-4" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="python-command-injection-4-cmd-4" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Blind CMD Injection 1</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/command-injection-blind-cmd-blind/blind-cmd-injection-1" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="blind-cmd-injection-1" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Content Security Policy</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/content-security-policy-csp/content-security-policy" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="content-security-policy" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">CORS Exploitation</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/cors-exploitation/cors-exploitation" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="cors-exploitation" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Credentials Guessing 1</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/credentials-guessing/credentials-guessing-1" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="credentials-guessing-1" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Credentials Guessing 2</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/credentials-guessing-2/credentials-guessing-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="credentials-guessing-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Cross Site Scripting</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/cross-site-scripting-xss/cross-site-scripting" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="cross-site-scripting" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Cross Site Scripting Attribute</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/cross-site-scripting-attribute-xss-attribute/cross-site-scripting-attribute" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="cross-site-scripting-attribute" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Cross Site Scripting Href</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/cross-site-scripting-href-xss-href/cross-site-scripting-href" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="cross-site-scripting-href" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">XSS DOM</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/cross-site-scripting-dom-xss-dom/xss-dom" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="xss-dom" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">XSS DOM 2</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/cross-site-scripting-dom-2-xss-dom-2/xss-dom-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="xss-dom-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">XSS Stored</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/cross-site-scripting-stored-xss-stored/xss-stored" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="xss-stored" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">CSRF</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/csrf/csrf" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="csrf" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">CSRF SameSite</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/csrf-samesite/csrf-samesite" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="csrf-samesite" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">CSRF Weak</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/csrf-weak/csrf-weak" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="csrf-weak" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">CSS Injection</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/css-injection-cssi/cssi" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="cssi" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Deserialisation YAML</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/deserialisation-yaml-des-yaml/deserialisation-yaml" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="deserialisation-yaml" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Des Pickle 1</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/deserialisation-pickle-des-pickle/des-pickle-1" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="des-pickle-1" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Des Pickle 2</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/deserialisation-pickle-2-des-pickle-2/des-pickle-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="des-pickle-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">DoS Regex</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/dos-regex/dos-regex" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="dos-regex" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">File Upload</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/file-upload/file-upload" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="file-upload" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Formula Injection</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/formula-injection/formula-injection" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="formula-injection" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">GraphQL DoS</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/graphql-dos/graphql-dos" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="graphql-dos" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">GraphQL IDOR</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/graphql-idor/graphql-idor" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="graphql-idor" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">GraphQL Injections</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/graphql-injections/graphql-injections" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="graphql-injections" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">GraphQL Introspection</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/graphql-introspection/graphql-introspection" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="graphql-introspection" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">GraphQL Mutations</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/graphql-mutations/graphql-mutations" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="graphql-mutations" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Python HttpOnly Session Hijacking XSS</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/host-header-injection-authentication-bypass/python-httponly-session-hijacking-xss" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="python-httponly-session-hijacking-xss" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">HttpOnly Session Hijacking XSS</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/httponly-session-hijacking-xss/httponly-session-hijacking-xss" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="httponly-session-hijacking-xss" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Information Leakage Comments</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/information-leakeage-in-comments/information-leakeage-comments" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="information-leakeage-comments" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Information Leakage Metadata</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/information-leakeage-in-metadata/information-leakeage-metadata" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="information-leakeage-metadata" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Insecure Direct Object References</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/insecure-direct-object-references-idor/insecure-direct-object-references" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="insecure-direct-object-references" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">JWT Null</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/jwt-null/jwt-null" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="jwt-null" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">JWT Secret</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/jwt-secret/jwt-secret" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="jwt-secret" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">LDAP</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/ldap-injection/ldap" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="ldap" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">LDAP Harder</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/ldap-injection-harder/ldap-harder" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="ldap-harder" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">LFI 1</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/local-file-inclusion-1-lfi-1/lfi-1" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="lfi-1" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">LFI 2</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/local-file-inclusion-2-lfi-2/lfi-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="lfi-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">LFI 3</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/local-file-inclusion-3-lfi-3/lfi-3" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="lfi-3" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Parameter Binding</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/parameter-binding/parameterbinding" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="parameterbinding" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Prototype Pollution</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/prototype-pollution/prototype-pollution" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="prototype-pollution" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Race Condition</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/race-condition/race-condition" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="race-condition" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">RaceCondition File Write</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/race-condition-file-write/racecondition-file-write" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="racecondition-file-write" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Ratelimiting</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/ratelimiting-brute-force-login/ratelimiting" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="ratelimiting" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Remote File Inclusion</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/remote-file-inclusion-rfi/remote-file-inclusion" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="remote-file-inclusion" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Right To Left Override</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/right-to-left-override-rtlo/right-to-left-override" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="right-to-left-override" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Server Side Request Forgery</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/server-side-request-forgery-ssrf/server-side-request-forgery" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="server-side-request-forgery" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Server Side Template Injection</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/server-side-template-injection-ssti/server-side-template-injection" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="server-side-template-injection" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Session Puzzling</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/session-puzzling/session-puzzling" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="session-puzzling" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Session Management 1</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/session-management-1/session-management-1" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="session-management-1" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">SQLi Union Select</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/sqli-union/sqli-union-select" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="sqli-union-select" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">SQLi Login Bypass</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/sqli-login-bypass/sqli-login-bypass" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="sqli-login-bypass" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="medium">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">SQLi LIKE</div>
+        <div class="col-md-2">Medium</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/sqli-like/sqli-like" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="sqli-like" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">SQLi Blind</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/sqli-blind/sqli-blind" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="sqli-blind" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">TLS Downgrade</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/tls-downgrade/tls-downgrade" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="tls-downgrade" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Include Files From Untrusted Sources JS</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/untrusted-sources-xssi/include-files-from-untrusted-sources-js" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="include-files-from-untrusted-sources-js" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="easy">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Open Redirect</div>
+        <div class="col-md-2">Easy</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/url-redirection/open-redirect" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="open-redirect" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Open Redirect Hard</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/url-redirection-harder/open-redirect-hard" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="open-redirect-hard" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Open Redirect Harder 2</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/url-redirection-harder-2/open-redirect-harder-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="open-redirect-harder-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">Open Redirect Harder 2</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/url-redirection-harder-2/open-redirect-harder-2" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="open-redirect-harder-2" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">WebSocket Message Manipulation</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/websocket-message-manipulation/websocket-message-manipulation" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="websocket-message-manipulation" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+    <div class="lab-row bg-white rounded shadow-sm p-3 mb-2" data-difficulty="hard">
+      <div class="row align-items-center">
+        <div class="col-md-4 fw-semibold">XXE</div>
+        <div class="col-md-2">Hard</div>
+        <div class="col-md-2">
+          <a href="https://skf.gitbook.io/asvs-write-ups/xml-external-entity-xxe/xxe" class="btn btn-sm btn-outline-dark" target="_blank">View</a>
+        </div>
+        <div class="col-md-4 text-end">
+          <lab-player
+            lab-name="xxe" 
+            lab-version="0.0.0">
+          </lab-player>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% include 'footer.html' %}
+
+<!-- JS Dependencies -->
+<script src="{{ url_for('static', filename='assets/js/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+
+<!-- JS for Difficulty Filtering -->
+<script>
+  function filterByDifficulty(level, label) {
+    const labs = document.querySelectorAll('.lab-row');
+    let visibleCount = 0;
+
+    labs.forEach(lab => {
+      const difficulty = lab.getAttribute('data-difficulty');
+      if (level === 'all' || difficulty === level) {
+        lab.style.display = 'block';
+        visibleCount++;
+      } else {
+        lab.style.display = 'none';
+      }
+    });
+
+    document.getElementById('visibleCount').textContent = visibleCount;
+    document.getElementById('totalCount').textContent = labs.length;
+    document.getElementById('sortDropdown').textContent = `Difficulty: ${label}`;
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    filterByDifficulty('all', 'All');
+  });
+</script>
+
+<!-- CSS Styling -->
+<style>
+  .course-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #515594;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .sort-btn {
+    background-color: #515594 !important;
+    color: white !important;
+    border: none !important;
+  }
+
+  .sort-btn:hover {
+    background-color: #41447a !important;
+  }
+
+  .dropdown-menu {
+    background-color: white;
+    border: 1px solid #515594;
+  }
+
+  .dropdown-item {
+    color: black;
+    transition: background-color 0.2s;
+  }
+
+  .dropdown-item:hover {
+    background-color: #515594;
+    color: white;
+  }
+
+  .labs-overview-page .row {
+    align-items: center;
+    margin: 0;
+  }
+
+  .labs-overview-page .bg-light {
+    background-color: #f8f9fc !important;
+    border: 1px solid #515594;
+  }
+
+  .labs-overview-page .lab-row {
+    border: 1px solid #515594;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+  .labs-overview-page .lab-row:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .labs-overview-page .fw-bold {
+    font-weight: 600 !important;
+    font-size: 1rem;
+  }
+
+  .labs-overview-page .fw-semibold {
+    font-weight: 500;
+  }
+
+  .labs-overview-page .badge {
+    font-size: 0.8rem;
+    padding: 0.4em 0.6em;
+    border-radius: 0.4rem;
+  }
+
+  .labs-overview-page .btn-outline-dark {
+    color: #f8f9fc;
+    border-color: #515594;
+    background-color: #515594;
+    font-weight: 500;
+  }
+
+  .labs-overview-page .btn-outline-dark:hover {
+    background-color: #515594;
+    color: white;
+  }
+
+  .labs-overview-page .btn-primary {
+    background-color: #515594;
+    border-color: #515594;
+    font-weight: 500;
+  }
+
+  .labs-overview-page .btn-primary:hover {
+    background-color: #41447a;
+    border-color: #41447a;
+  }
+
+  .lab-status {
+    background-color: #e0e0e0;
+    color: #333;
+    font-weight: 500;
+    font-size: 0.75rem;
+    padding: 0.35em 0.65em;
+    border-radius: 0.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .lab-status.active {
+    background-color: #28a745;
+    color: #fff;
+  }
+
+  .lab-status.inactive {
+    background-color: #adb5bd;
+    color: #fff;
+  }
+</style>
