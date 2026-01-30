@@ -44,5 +44,8 @@ def labs():
     return render_template('labs.html')
 
 
-if __name__ == "__main__":
+def main():
     app.run(debug=True, host='0.0.0.0')
+
+if __name__ == "__main__":
+    main()
